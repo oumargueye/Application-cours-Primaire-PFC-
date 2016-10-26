@@ -1,4 +1,3 @@
-
 var app = {
     // Application Constructor
     initialize: function() {
@@ -17,11 +16,18 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         //initialisation des variables
-        btnChangerTxt = document.getElementById('changerTxt');
-        champsTxt = document.getElementById('champsTxt');
+        divCours = document.getElementById('divCours');
+        divQuiz = document.getElementById('divQuiz');
+        btnLancerQuiz = document.getElementById('btnLancerQuiz');
+        btnSuivant = document.getElementById('btnSuivant');
         
+        listItemOuetOu = document.getElementById('ouEtOu');
+        listItemAccordAdjectif = document.getElementById("accordAdjectif");
+             
         //Ajout des listeners
-        btnChangerTxt.addEventListener('click', btnChangerTxtAction);
+        listItemOuetOu.addEventListener('click', listItemOuetOuAction);
+        listItemAccordAdjectif.addEventListener('click' , listItemAccordAdjectifAction);
+        btnLancerQuiz.addEventListener('click', demmarerQuiz);
     }
    
 };
@@ -29,16 +35,38 @@ var app = {
 app.initialize();
 
 //Déclaration des variables
-var btnChangerTxt;
-var champsTxt;
+var divCours;
+var divQuiz;
+var btnLancerQuiz;
+var btnSuivant;
+
+var listItemOuetOu;
+var listItemAccordAdjectif ;
+var quizCorrespondant;
 
 //Fonctions  
 
-function btnChangerTxtAction() {
-    var txt = "J'ai <u>changé</u> le text";
-    changerTxt(txt, champsTxt);
+function listItemOuetOuAction() {
+    changerCours(coursOuetOuAvecAcent);
+    quizCorrespondant = quizOuetOu;
+    ouvrirPageCours();
 }
+
+function listItemAccordAdjectifAction(){
+    changerCours(coursAccordDeLadjectifQualif);
+    ouvrirPageCours();
+}
+
+
+function ouvrirPageCours(){
+   $.mobile.changePage('#pageCours', {transition: "slide"});  
+}
+
+function changerCours(nouveauCours) {
+    changerTxt(nouveauCours, divCours);
+} 
 
 function changerTxt(texte, idChamps) {
     idChamps.innerHTML = texte;
 }
+

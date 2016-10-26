@@ -26,13 +26,37 @@
     <body>
         <div data-role="page" id="pageAcceuil">
             <div data-role="header" data-position="fixed">
-                <h1>Welcome</h1>
+                <h1>GOV Edu</h1>
             </div>
 
             <div data-role="main" class="ui-content">
-                <p id="champsTxt"> Premier test!!</p>
-                <button id="changerTxt">Changer le text</button>
-                <a class="ui-btn" data-transition="slide" href="#page2">Ouvrir Page 2</a>
+
+                <div data-role="collapsibleset">
+                    <div data-role="collapsible">
+                        <h1>Grammaire</h1>
+                        <ul data-role="listview">
+                            <li><a href="#" id="list1">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Orthographe</h1>
+                        <ul data-role="listview">
+                            <li><a href="#" id="ouEtOu">Ou et Où</a></li>
+                            <li><a href="#" id='accordAdjectif'>Accord de l'adjectif qualificatif</a></li>
+                            <li><a href="#">List Item</a></li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Vocabulaire</h1>
+                        <ul data-role="listview">
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                            <li><a href="#">List Item</a></li>
+                        </ul>
+                    </div>
+                </div>
 
             </div>
 
@@ -41,13 +65,41 @@
             </div>
         </div>
 
-        <div data-role="page" id="page2">
+        <div data-role="page" id="pageCours">
             <div data-role="header" data-position="fixed">
                 <h1>Welcome</h1>
             </div>
 
             <div data-role="main" class="ui-content">
-                <p>I Am Now A Mobile Developer!!</p>
+                <div id="divCours"></div>
+                <button class="ui-btn" id='btnLancerQuiz'>Lancer Quiz</button>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer Text</h1>
+            </div>
+        </div>
+
+        <div data-role="page" id="pageQuiz">
+            <div data-role="header" data-position="fixed">
+                <h1>Welcome</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <p id="divQuiz">Question ....... ?</p>
+                <form>
+                    <fieldset data-role="controlgroup" data-iconpos="right">
+                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6a" value="choix1" checked="checked">
+                        <label for="radio-choice-w-6a">Choix 1</label>
+                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6b" value="Choix2">
+                        <label for="radio-choice-w-6b">Choix 2</label>
+                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6c" value="Choix3">
+                        <label for="radio-choice-w-6c">Choix 3</label>
+                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6d" value="Choix4">
+                        <label for="radio-choice-w-6d">Choix 4</label>
+                    </fieldset>
+                </form>
+                <button class="ui-btn" id='btnLancerQuiz'>Suivant</button>
             </div>
 
             <div data-role="footer" data-position="fixed">
@@ -67,6 +119,9 @@
             });
         </script>
         <script type="text/javascript" src="js/jquery-1.5.0.mobile.min.js"></script>
+        <script type="text/javascript" src="js/cours/ou_et_ou_avec_acent.js"></script>
+        <script type="text/javascript" src="js/cours/accord_de_ladjectif_qualif.js"></script>
+        <script type="text/javascript" src="js/quiz.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
