@@ -23,10 +23,22 @@ var app = {
         
         listItemOuetOu = document.getElementById('ouEtOu');
         listItemAccordAdjectif = document.getElementById("accordAdjectif");
+        listItemGdur = document.getElementById("leGdur");
+        listItemMotEnEuilleEtEuil = document.getElementById("motEnEuilleEtEnEuil");
+        listItemEmploiDeLeursEtLeur = document.getElementById("emploiDeleursEtleur");
+        listItemNomFemininEnEurEtOeur = document.getElementById("nomsFemininEnEurEtOeur");
+        listItemHomonymeMaisMetMes = document.getElementById("homonymeMaisMetMes");
+        listItemEmploiDeCeSeCeux = document.getElementById("EmploiDeCeSeCeux");
              
         //Ajout des listeners
         listItemOuetOu.addEventListener('click', listItemOuetOuAction);
         listItemAccordAdjectif.addEventListener('click' , listItemAccordAdjectifAction);
+        listItemGdur.addEventListener('click', listItemGdurAction);
+        listItemMotEnEuilleEtEuil.addEventListener('click' , listItemMotEnEuilleEtEuilAction);
+        listItemEmploiDeLeursEtLeur.addEventListener('click', listItemEmploiDeLeursEtLeurAction);
+        listItemNomFemininEnEurEtOeur.addEventListener('click' , listItemNomFemininEnEurEtOeurAction);
+        listItemHomonymeMaisMetMes.addEventListener('click' , listItemHomonymeMaisMetMesAction);
+        listItemEmploiDeCeSeCeux.addEventListener('click' , listItemEmploiDeCeSeCeuxAction);
         btnLancerQuiz.addEventListener('click', demmarerQuiz);
     }
    
@@ -42,6 +54,12 @@ var btnSuivant;
 
 var listItemOuetOu;
 var listItemAccordAdjectif ;
+var listItemGdur ;
+var listItemMotEnEuilleEtEuil ;
+var listItemEmploiDeLeursEtLeur ;
+var listItemNomFemininEnEurEtOeur ;
+var listItemHomonymeMaisMetMes ;
+var listItemEmploiDeCeSeCeux ;
 var quizCorrespondant;
 
 //Fonctions  
@@ -57,6 +75,35 @@ function listItemAccordAdjectifAction(){
     ouvrirPageCours();
 }
 
+function listItemGdurAction(){
+    changerCours(coursGdur);
+    ouvrirPageCours();
+}
+
+function listItemMotEnEuilleEtEuilAction(){
+    changerCours(coursMotEnEuilleEtEuil);
+    ouvrirPageCours();
+}
+
+function listItemEmploiDeLeursEtLeurAction(){
+    changerCours(coursEmploiDeLeursEtLeur);
+    ouvrirPageCours();
+}
+
+function listItemNomFemininEnEurEtOeurAction(){
+    changerCours(coursNomFemininEnEurEtOeur);
+    ouvrirPageCours();
+}
+
+function listItemHomonymeMaisMetMesAction(){
+    changerCours(coursHomonymesMaisMetMes);
+    ouvrirPageCours();
+}
+
+function listItemEmploiDeCeSeCeuxAction(){
+    changerCours(coursEmploiDeCeSeEtCeux);
+    ouvrirPageCours();
+}
 
 function ouvrirPageCours(){
    $.mobile.changePage('#pageCours', {transition: "slide"});  

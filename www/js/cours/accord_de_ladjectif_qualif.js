@@ -1,5 +1,5 @@
 var coursAccordDeLadjectifQualif = `
-Ladjectif qualificatif s accorde  en genre et en nombre avec  le nom quil est accompagne .
+L'adjectif qualificatif s accorde  en genre et en nombre avec  le nom quil est accompagne .
  Exemples d application
 Des corbeilles plein .
 Un arbre fleuri.
