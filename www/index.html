@@ -27,6 +27,7 @@
         <div data-role="page" id="pageAcceuil">
             <div data-role="header" data-position="fixed">
                 <h1>GOV Edu</h1>
+                <h2>Temple du Savoir</h2>
             </div>
 
             <div data-role="main" class="ui-content">
@@ -35,9 +36,13 @@
                     <div data-role="collapsible">
                         <h1>Grammaire</h1>
                         <ul data-role="listview">
-                            <li><a href="#" id="list1">List Item</a></li>
-                            <li><a href="#">List Item</a></li>
-                            <li><a href="#">List Item</a></li>
+                            <li><a href="#" id="genreMasculinFemininDesNoms">Genre masculin et feminin des noms</a></li>
+                            <li><a href="#" id="complementCirconstancielDeLieu" >Complément Circonstanciel de Lieu</a></li>
+                            <li><a href="#" id="adjectifQualificatif">Adjectif qualificatif</a></li>
+                            <li><a href="#" id="plurielDesNomsAilEtAl">Pluriel des noms en ail et al</a></li>
+                            <li><a href="#" id="nomCommunNomPropre">Nom commun, Nom propre</a></li>
+                            <li><a href="#" id="adjectifPossessif">Adjectif possessif</a></li>
+                            <li><a href="#" id="complementDobjetDirect">Complément d'objet direct</a></li>
                         </ul>
                     </div>
                     <div data-role="collapsible">
@@ -73,6 +78,7 @@
         <div data-role="page" id="pageCours">
             <div data-role="header" data-position="fixed">
                 <h1>GOV Edu</h1>
+                <h2>Temple du Savoir</h2>
             </div>
 
             <div data-role="main" class="ui-content">
@@ -119,11 +125,12 @@
         <script type="text/javascript" id="jqm-trans-disable">
             /* For having a faster transition */
             $(document).on("mobileinit", function () {
-                $.mobile.defaultPageTransition = "none";
-                $.mobile.defaultDialogTransition = "none";
+            $.mobile.defaultPageTransition = "none";
+            $.mobile.defaultDialogTransition = "none";
             });
         </script>
         <script type="text/javascript" src="js/jquery-1.5.0.mobile.min.js"></script>
+
         <script type="text/javascript" src="js/cours/ou_et_ou_avec_acent.js"></script>
         <script type="text/javascript" src="js/cours/accord_de_ladjectif_qualif.js"></script>
         <script type="text/javascript" src="js/cours/mots_en_euille_et_euil.js"></script>
@@ -132,6 +139,14 @@
         <script type="text/javascript" src="js/cours/le_g_dur.js"></script>
         <script type="text/javascript" src="js/cours/homonyme_mais_met_mes.js"></script>
         <script type="text/javascript" src="js/cours/L'emploi_de_ce_se_ceux.js"></script>
+
+        <script type="text/javascript" src="js/coursGrammaire/genre_feminins_et_masculin_des_noms.js"></script>
+        <script type="text/javascript" src="js/coursGrammaire/complement_circonstanciel_de_lieu.js"></script>
+        <script type="text/javascript" src="js/coursGrammaire/adjectif_qualificatif.js"></script>
+        <script type="text/javascript" src="js/coursGrammaire/pluriel_des_noms_en_ail_et_al.js"></script>
+        <script type="text/javascript" src="js/coursGrammaire/nom_commun_nom_propre.js"></script>
+        <script type="text/javascript" src="js/coursGrammaire/adjectif_possessif.js"></script>
+        <script type="text/javascript" src="js/coursGrammaire/complement_d'objet_direct.js"></script>
         <script type="text/javascript" src="js/quiz.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>

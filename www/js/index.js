@@ -21,6 +21,7 @@ var app = {
         btnLancerQuiz = document.getElementById('btnLancerQuiz');
         btnSuivant = document.getElementById('btnSuivant');
         
+        // listItem orthographe 
         listItemOuetOu = document.getElementById('ouEtOu');
         listItemAccordAdjectif = document.getElementById("accordAdjectif");
         listItemGdur = document.getElementById("leGdur");
@@ -29,8 +30,17 @@ var app = {
         listItemNomFemininEnEurEtOeur = document.getElementById("nomsFemininEnEurEtOeur");
         listItemHomonymeMaisMetMes = document.getElementById("homonymeMaisMetMes");
         listItemEmploiDeCeSeCeux = document.getElementById("EmploiDeCeSeCeux");
+        
+        // listItem Grammaire
+        listItemGenreMasculinFemininDesNoms = document.getElementById('genreMasculinFemininDesNoms');
+        listItemComplementCirconstancielDeLieu = document.getElementById('complementCirconstancielDeLieu');
+        listItemAdjectifQualificatif = document.getElementById('adjectifQualificatif');
+        listItemPlurielDesNomsEnAilEtAl = document.getElementById('plurielDesNomsAilEtAl');
+        listItemNomCommunNomPropre = document.getElementById('nomCommunNomPropre');
+        listItemAdjectifPossessif = document.getElementById('adjectifPossessif');
+        listItemComplementDobjetDirect = document.getElementById('complementDobjetDirect');
              
-        //Ajout des listeners
+        //Ajout des listeners D'orthographe
         listItemOuetOu.addEventListener('click', listItemOuetOuAction);
         listItemAccordAdjectif.addEventListener('click' , listItemAccordAdjectifAction);
         listItemGdur.addEventListener('click', listItemGdurAction);
@@ -40,6 +50,15 @@ var app = {
         listItemHomonymeMaisMetMes.addEventListener('click' , listItemHomonymeMaisMetMesAction);
         listItemEmploiDeCeSeCeux.addEventListener('click' , listItemEmploiDeCeSeCeuxAction);
         btnLancerQuiz.addEventListener('click', demmarerQuiz);
+        
+         //Ajout des listeners de grammaire 
+        listItemGenreMasculinFemininDesNoms.addEventListener('click' , listItemGenreMasculinFemininDesNomsAction);
+        listItemComplementCirconstancielDeLieu.addEventListener('click' , listItemComplementCirconstancielDeLieuAction);
+        listItemAdjectifQualificatif.addEventListener('click' , listItemAdjectifQualificatifAction);
+        listItemPlurielDesNomsEnAilEtAl.addEventListener('click' , listItemPlurielDesNomsEnAilEtAlAction);
+        listItemNomCommunNomPropre.addEventListener('click' , listItemNomCommunNomPropreAcion);
+        listItemAdjectifPossessif.addEventListener('click' , listItemAdjectifPossessifAction);
+        listItemComplementDobjetDirect.addEventListener('click' , listItemComplementDobjetDirectAction);
     }
    
 };
@@ -52,6 +71,7 @@ var divQuiz;
 var btnLancerQuiz;
 var btnSuivant;
 
+// variables Orthographe 
 var listItemOuetOu;
 var listItemAccordAdjectif ;
 var listItemGdur ;
@@ -60,10 +80,21 @@ var listItemEmploiDeLeursEtLeur ;
 var listItemNomFemininEnEurEtOeur ;
 var listItemHomonymeMaisMetMes ;
 var listItemEmploiDeCeSeCeux ;
+
+// variables Grammaire 
+var listItemGenreMasculinFemininDesNoms ;
+var listItemComplementCirconstancielDeLieu ;
+var listItemAdjectifQualificatif ;
+var listItemPlurielDesNomsEnAilEtAl ;
+var listItemNomCommunNomPropre ;
+var listItemAdjectifPossessif ;
+var listItemComplementDobjetDirect ;
+
+// variables quiz 
 var quizCorrespondant;
 
 //Fonctions  
-
+// fonction d'orthographe 
 function listItemOuetOuAction() {
     changerCours(coursOuetOuAvecAcent);
     quizCorrespondant = quizOuetOu;
@@ -102,6 +133,42 @@ function listItemHomonymeMaisMetMesAction(){
 
 function listItemEmploiDeCeSeCeuxAction(){
     changerCours(coursEmploiDeCeSeEtCeux);
+    ouvrirPageCours();
+}
+
+// fonction Grammaire 
+function listItemGenreMasculinFemininDesNomsAction(){
+    changerCours(coursGrammaireGenreMasculinFeminin);
+    ouvrirPageCours();
+}
+
+function listItemComplementCirconstancielDeLieuAction(){
+    changerCours(coursGrammaireComplementCirconstancielDeLieu);
+    ouvrirPageCours();
+}
+
+function listItemAdjectifQualificatifAction(){
+    changerCours(coursGrammaireAdjectifQualificatif);
+    ouvrirPageCours();
+}
+
+function listItemPlurielDesNomsEnAilEtAlAction(){
+    changerCours(coursGrammairePlurielDesNomsEnAilEtEnAl);
+    ouvrirPageCours();
+}
+
+function listItemNomCommunNomPropreAcion(){
+    changerCours(coursGrammaireNomCommunNomPropre);
+    ouvrirPageCours();
+}
+
+function listItemAdjectifPossessifAction(){
+    changerCours(coursGrammaireAdjectifPossessif);
+    ouvrirPageCours();
+}
+
+function listItemComplementDobjetDirectAction(){
+    changerCours(coursGrammaireComplementDobjetDirect);
     ouvrirPageCours();
 }
 
