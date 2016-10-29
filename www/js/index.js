@@ -39,7 +39,18 @@ var app = {
         listItemNomCommunNomPropre = document.getElementById('nomCommunNomPropre');
         listItemAdjectifPossessif = document.getElementById('adjectifPossessif');
         listItemComplementDobjetDirect = document.getElementById('complementDobjetDirect');
-             
+        listItemComplementDobjetIndirect = document.getElementById('complementDobjetInDirect');
+        
+        // listItem Vocabulaire 
+        listItemradicaux = document.getElementById('radicaux');  
+        listItemPrefixe = document.getElementById('prefixe');
+        listItemSuffixe = document.getElementById('suffixe');
+        listItemChampLexical = document.getElementById('champLexical');
+        listItemSynonymie = document.getElementById('synonymie');
+        listItemAntonymie = document.getElementById('antonymie');
+        listItemHomonymie = document.getElementById('homonymie') ;
+        listItemParonymie = document.getElementById('paronymie');
+        
         //Ajout des listeners D'orthographe
         listItemOuetOu.addEventListener('click', listItemOuetOuAction);
         listItemAccordAdjectif.addEventListener('click' , listItemAccordAdjectifAction);
@@ -49,6 +60,7 @@ var app = {
         listItemNomFemininEnEurEtOeur.addEventListener('click' , listItemNomFemininEnEurEtOeurAction);
         listItemHomonymeMaisMetMes.addEventListener('click' , listItemHomonymeMaisMetMesAction);
         listItemEmploiDeCeSeCeux.addEventListener('click' , listItemEmploiDeCeSeCeuxAction);
+        
         btnLancerQuiz.addEventListener('click', demmarerQuiz);
         
          //Ajout des listeners de grammaire 
@@ -59,6 +71,17 @@ var app = {
         listItemNomCommunNomPropre.addEventListener('click' , listItemNomCommunNomPropreAcion);
         listItemAdjectifPossessif.addEventListener('click' , listItemAdjectifPossessifAction);
         listItemComplementDobjetDirect.addEventListener('click' , listItemComplementDobjetDirectAction);
+        listItemComplementDobjetIndirect.addEventListener('click' , listItemComplementDobjetIndirectAction);
+        
+        // Ajout des listeners de Vocabulaire 
+        listItemradicaux.addEventListener('click' , listItemradicauxAction);
+        listItemPrefixe.addEventListener('click' , listItemPrefixeAction);
+        listItemSuffixe.addEventListener('click' , listItemSuffixeAction);
+        listItemChampLexical.addEventListener('click' , listItemChampLexicalAcion);
+        listItemSynonymie.addEventListener('click' , listItemSynonymieAction);
+        listItemAntonymie.addEventListener('click' , listItemAntonymieAction);
+        listItemHomonymie.addEventListener('click' , listItemHomonymieAction);
+        listItemParonymie.addEventListener('click' , listItemParonymieAction);
     }
    
 };
@@ -89,6 +112,17 @@ var listItemPlurielDesNomsEnAilEtAl ;
 var listItemNomCommunNomPropre ;
 var listItemAdjectifPossessif ;
 var listItemComplementDobjetDirect ;
+var listItemComplementDobjetIndirect ;
+
+// variables Vocabulaire
+var listItemradicaux ;
+var listItemPrefixe ;
+var listItemSuffixe ;
+var listItemChampLexical ;
+var listItemSynonymie ;
+var listItemAntonymie ;
+var listItemHomonymie ;
+var listItemParonymie ;
 
 // variables quiz 
 var quizCorrespondant;
@@ -169,6 +203,52 @@ function listItemAdjectifPossessifAction(){
 
 function listItemComplementDobjetDirectAction(){
     changerCours(coursGrammaireComplementDobjetDirect);
+    ouvrirPageCours();
+}
+
+function listItemComplementDobjetIndirectAction(){
+    changerCours(coursGrammaireComplementDobjetIndirect);
+    ouvrirPageCours();
+}
+
+// fonction Vocabulaire
+function listItemradicauxAction(){
+    changerCours(coursVocabulaireRadicaux);
+    ouvrirPageCours();
+}
+
+function listItemPrefixeAction(){
+    changerCours(coursVocabulairePrefixe);
+    ouvrirPageCours();
+}
+
+function listItemSuffixeAction(){
+    changerCours(coursVocabulaireSuffixe);
+    ouvrirPageCours();
+}
+
+function listItemSynonymieAction(){
+    changerCours(coursVocabulaireSynonymie);
+    ouvrirPageCours();
+}
+
+function listItemChampLexicalAcion(){
+    changerCours(coursVocabulaireChampLexical);
+    ouvrirPageCours();
+}
+
+function listItemAntonymieAction(){
+    changerCours(coursVocabulaireAntonymie);
+    ouvrirPageCours();
+}
+
+function listItemHomonymieAction(){
+    changerCours(coursVocabulaireHomonymie);
+    ouvrirPageCours();
+}
+
+function listItemParonymieAction(){
+    changerCours(coursVocabulaireParonymie);
     ouvrirPageCours();
 }
 
