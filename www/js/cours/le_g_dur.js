@@ -1,9 +1,11 @@
 var coursGdur = `
- On ecrit gu quant il est devant  les voyelles e et i  pour obtenir le son g 
-Exemple
-Guerisson ,guitare
-Le g dur s'écrit   sans u devant les voyelles a et o
-Exemple
+  <b> Le G dur </b><br/>
+<p>
+ On ecrit gu quant il est devant  les voyelles e et i  pour obtenir le son g <br/>
+Exemple <br/>
+Guerisson ,guitare <br/>
+Le g dur s'écrit   sans u devant les voyelles a et o <br/>
+Exemple <br/>
  Un gargon , un goujon .`;
 
 // reference pour le quiz 

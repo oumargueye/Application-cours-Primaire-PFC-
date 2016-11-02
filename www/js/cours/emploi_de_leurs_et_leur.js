@@ -1,8 +1,11 @@
-var coursEmploiDeLeursEtLeur = ` 
-  On ecrit  le leur sans s quand il est placé devant un verbe et  avec  s devant un nom.
- Exemple : 
-Le maitre leur donne de la craie .
+var coursEmploiDeLeursEtLeur = `
+<b> L'emploi de leur et de leurs </b>
+<p>
+  On ecrit  le leur sans s quand il est placé devant un verbe et  avec  s devant un nom.<br/>
+ Exemple : <br/>
+Le maitre leur donne de la craie .<br/>
 Les élèves sortent leurs liuvres .
+</p>
 `;
 
 // reference pour quiz 

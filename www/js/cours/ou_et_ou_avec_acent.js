@@ -1,42 +1,42 @@
-var coursOuetOuAvecAcent = "<h1>Ou et Où</h1>" +
-            "<b>  ou  </b>" +
-           " <p>" +
-               " 'ou' conjonction de coordination relie des mots ou groupes de mots, elle n'a pas de fonction grammaticale dans la phrase." +
+var coursOuetOuAvecAcent = "<b>Ou et Où </b>" +
+         " <p>" +
+            "<b>  ou  </b><br/> " +
+               " 'ou' conjonction de coordination relie des mots ou groupes de mots, elle n'a pas de fonction grammaticale dans la phrase.<br/>" +
 
-               " Dans une énumération on la met en général avant le dernier terme." +
-               " Pour ton anniversaire tu peux avoir des patins à roulettes, une planche à roulettes ou des rollers." +
+               " Dans une énumération on la met en général avant le dernier terme.<br/>" +
+               " Pour ton anniversaire tu peux avoir des patins à roulettes, une planche à roulettes ou des rollers.<br/>" +
 
-               " Pour insister on peut la répéter." +
+               " Pour insister on peut la répéter.<br/>" +
                " Pour ton anniversaire tu peux avoir ou des patins à roulettes, ou une planche à roulettes ou, des rollers." +
+ " </p>" +
 
+ " <p>" +
+               "<b> Accord du verbe après deux sujets reliés par 'ou'</b><br/>" +
 
+               " Si les deux sujets ne sont pas de la même personne le verbe se met au pluriel et à la personne qui a la priorité.<br/>" +
+               " Marie ou moi ferons la vaisselle. <br/>                     Toi  ou ton père rangerez la table.<br/>" +
 
-               " Accord du verbe après deux sujets reliés par 'ou'" +
+               " Si les deux sujets sont à la troisième personne du singulier il y a 2 cas<br/> " +
 
-               " Si les deux sujets ne sont pas de la même personne le verbe se met au pluriel et à la personne qui a la priorité." +
-               " Marie ou moi ferons la vaisselle.                      Toi  ou ton père rangerez la table." +
+               " -l'un des sujets exclut l'autre, le verbe se met au singulier.<br/>" +
+               " Ce mois-ci Pierre ou son copain Luc sera le premier de la classe. (il n'y a qu'un premier)<br/>" +
 
-               " Si les deux sujets sont à la troisième personne du singulier il y a 2 cas " +
-
-               " 1) l'un des sujets exclut l'autre, le verbe se met au singulier." +
-               " Ce mois-ci Pierre ou son copain Luc sera le premier de la classe. (il n'y a qu'un premier)" +
-
-               " 2) Si le verbe peut se rapporter simultanément aux deux sujets il se met au pluriel." +
-               " Cet enfant est ingérable: une récompense ou une punition n'ont aucun effet sur lui." +
+               " - Si le verbe peut se rapporter simultanément aux deux sujets il se met au pluriel.<br/>" +
+               " Cet enfant est ingérable: une récompense ou une punition n'ont aucun effet sur lui.<br/>" +
                " Pendant les vacances la lecture ou le sport  distrairont les enfants" +
            " </p>"+
 
-           " <b>  où  </b>" +
-           " <p>" +
-               " Où ne s'applique qu'à des choses. Pronom il est le plus souvent complément circonstanciel de lieu (ou de temps)" +
-               " Le Groënland est un pays où je n'aimerais pas vivre, il y fait trop froid. (cc de lieu)" +
-               " L'automne est la saison où les feuilles tombent. (cc de temps)" +
+          " <p>" +
+           " <b>  où  </b><br/>" +
+               " Où ne s'applique qu'à des choses.<br/> Pronom il est le plus souvent complément circonstanciel de lieu (ou de temps)<br/>" +
+               " Le Groënland est un pays où je n'aimerais pas vivre, il y fait trop froid. (cc de lieu)<br/>" +
+               " L'automne est la saison où les feuilles tombent. (cc de temps)<br/>" +
 
-               " Il peut être précédé des prépositions de, jusque et par." +
-               " Connaissez-vous le pays d'où je viens?       J'ai vu l'endroit par où le chien s'est échappé.    Jusqu'où va-t-il? " +
+               " Il peut être précédé des prépositions de, jusque et par.<br/>" +
+               " Connaissez-vous le pays d'où je viens?  <br/>     J'ai vu l'endroit par où le chien s'est échappé.  <br/>  Jusqu'où va-t-il?<br/> " +
 
-               " Où adverbe interrogatif peut être employé dans une interrogation directe ou indirecte." +
-               " Où va-t-il?       Je me demande où il va." +
+               " Où adverbe interrogatif peut être employé dans une interrogation directe ou indirecte.<br/>" +
+               " Où va-t-il?  <br/>     Je me demande où il va.<br/>" +
            " </p>";
    
    var quizOuetOu = [

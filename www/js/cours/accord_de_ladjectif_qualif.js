@@ -1,14 +1,17 @@
 var coursAccordDeLadjectifQualif = `
-L'adjectif qualificatif s accorde  en genre et en nombre avec  le nom quil est accompagne .
- Exemples d application
-Des corbeilles plein .
-Un arbre fleuri.
-Des classes lamminee 
-Des eleves attentifs et applique .
- Des garcons et filles joyeux.
-Les ouvriers sont actif et attentif.
- La corne est pointu.
-Une pluie leger arrose les champs assoiffe.
+ <b> L'accord de l'adjectif qualificatif </b>
+<p>
+L'adjectif qualificatif s accorde  en genre et en nombre avec  le nom quil est accompagne .</br>
+ Exemples : </br>
+Des corbeilles pleines .</br>
+Un arbre fleuri.</br>
+Des classes lamminées </br>
+Des élèves attentifs et appliqués .</br>
+ Des garcons et filles joyeux.</br>
+Les ouvriers sont actifs et attentifs.</br>
+ La corne est pointue.</br>
+Une pluie legére arrose les champs assoiffés.
+</p>
 `;
 
 

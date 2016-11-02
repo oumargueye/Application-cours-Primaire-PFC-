@@ -1,17 +1,19 @@
 
 var coursGrammaireAdjectifPossessif = 
-       " LES ADJECTIFS POSSESSIFS <br/> " +
-" L'adjectif possessif apporte des informations de genre, de nombre, et de personne (information concernant le possesseur). " +
-" Exemples : " +
-" -Ma veste / Mon manteau. " +
-" -Mes chemises " +
-" -Votre travail mérite tous nos compliments. " +
-" L'adjectif possessif : « Ma » est accordé en genre et en nombre avec le mot « veste »," +
-" comme c'est le même cas pour les autres adjectifs possessifs (Mon, mes, votre, nos...etc.). " +
-" L'adjectif possessif s'établit ainsi en relation entre ce qui est possédé et : " +
-" - Celui (ou ceux) qui parle (nt): mon chien, notre chien. " +
-" - Celui (ceux) à qui l'on parle: ton chien, votre chien. " +
-" - Celui (ceux) dont on parle: son chien, leur chien.<br/><br/> " +
+       " <b>Les adjectifs possessifs </b><br/> " +
+   " <p>"+
+" L'adjectif possessif apporte des informations de genre, de nombre, et de personne (information concernant le possesseur).<br/> " +
+" Exemples :<br/> " +
+" - Ma veste / Mon manteau.<br/> " +
+" - Mes chemises <br/>" +
+" -Votre travail mérite tous nos compliments.<br/> " +
+" L'adjectif possessif :<b> « Ma » </b> est accordé en genre et en nombre avec le mot <br/> <b> « veste »</b> ," +
+" comme c'est le même cas pour les autres adjectifs possessifs <br/>(Mon, mes, votre, nos...etc.).<br/> " +
+" L'adjectif possessif s'établit ainsi en relation entre ce qui est possédé et : <br/> " +
+" - Celui (ou ceux) qui parle (nt): mon chien, notre chien.<br/> " +
+" - Celui (ceux) à qui l'on parle: ton chien, votre chien. <br/>" +
+" - Celui (ceux) dont on parle: son chien, leur chien. " +
+" </p>"+
 
 "<table>" +
 "<tr>" +
@@ -53,24 +55,28 @@ var coursGrammaireAdjectifPossessif =
    "<tr>" +          
  "  <td> </td>       <td>  Leur	              <td> Leurs </td> " +
    "</tr>"+ 
-   "</table> <br/>" +
-" Remarque : La distinction de genre ne peut se faire que si possesseur et possédé sont au singulier. " +
-" Utilisation de l'adjectif possessif : " +
-" -Devant un mot féminin commençant par une voyelle ou par un h muet, on utilise mon, ton, son au féminin. " +
-" Sa belle histoire ==> Son histoire. " +
-" L'adjectif possessif indique très souvent un lieu social (parenté, rapport professionnel, utilisation, etc.). " +
-" Exemples : " +
-" Mon père - Mes voisins - ma secrétaire. " +
-" Les ouvriers occupent leur usine. " +
-" J'ai perdu mon chemin. " +
-" L'adjectif peut s'utiliser également, dans certains cas, à la première personne, lorsque l'on s'adresse à un supérieur. " +
-" Exemple : " +
-" Mon général. " +
-" Cet usage du possessif comme marque de respect persiste à l'intérieur de mots comme : " +
-" Monsieur, Madame, Mademoiselle, Monseigneur, etc. " +
-" Dans le cas où la possession (l'appartenance) est évidente, comme pour les parties du corps, " +
-" l'usage veut que l'on n'utilise pas l'adjectif possessif si la personne est déjà clairement exprimée. " +
-" J'ai mal au ventre ==> J'ai mal à mon ventre (ne se dira pas). " ;
+   "</table> " +
+   
+   " <p>"+
+"<b> Remarque :</b> <br/>" +
+"La distinction de genre ne peut se faire que si possesseur et possédé sont au singulier.<br/> " +
+" Utilisation de l'adjectif possessif :<br/> " +
+" -Devant un mot féminin commençant par une voyelle ou par un h muet, on utilise mon, ton, son au féminin.<br/> " +
+" Sa belle histoire ==> Son histoire.<br/> " +
+" L'adjectif possessif indique très souvent un lieu social (parenté, rapport professionnel, utilisation, etc.).<br/> " +
+" Exemples :<br/> " +
+" Mon père - Mes voisins - ma secrétaire. <br/> " +
+" Les ouvriers occupent leur usine.<br/> " +
+" J'ai perdu mon chemin.<br/> " +
+" L'adjectif peut s'utiliser également, dans certains cas, à la première personne, lorsque l'on s'adresse à un supérieur.<br/> " +
+" Exemple : <br/>" +
+" Mon général.<br/> " +
+" Cet usage du possessif comme marque de respect persiste à l'intérieur de mots comme : <br/>" +
+" Monsieur, Madame, Mademoiselle, Monseigneur, etc.<br/> " +
+" Dans le cas où la possession (l'appartenance) est évidente, comme pour les parties du corps,<br/> " +
+" l'usage veut que l'on n'utilise pas l'adjectif possessif si la personne est déjà clairement exprimée. <br/>" +
+" J'ai mal au ventre ==> J'ai mal à mon ventre (ne se dira pas). " + 
+" </p>";
 
 
 

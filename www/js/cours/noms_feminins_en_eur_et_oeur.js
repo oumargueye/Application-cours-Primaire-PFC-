@@ -1,6 +1,9 @@
 var coursNomFemininEnEurEtOeur = `
-Les mots termines en eur oueur secrivent en eur au feminin mais 
+<b> Noms féminins en eur et en oeur </b> 
+<p>
+Les mots termines en eur oeur secrivent en eur au feminin mais 
  il faudra faire attention a certaines exception  comme le beurre la demeure l'heure ,le cœur .
+</p>
 `;
 // reference de quiz
 

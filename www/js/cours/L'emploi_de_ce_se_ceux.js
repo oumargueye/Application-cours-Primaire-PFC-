@@ -1,12 +1,14 @@
 var coursEmploiDeCeSeEtCeux = `
-Ces homonymes peuvent semployer dans differents phrases mais nayant pas le meme sens.
-CE est pronon demonstratif  .il designe une chose ect
-Exemple Ce cahier appartient a modou
-A lui ce bic
-NB le pluriel de ce est ces exemple Ces cahiers appartiennent a modou.
-SE precede le verbes pronominaux.
-Exemple se soigner ,SE garnir , se laver, s agenouiller
-` ;
+<b> Ce, Se </b> <br/>
+<p>
+Ces homonymes peuvent semployer dans differents phrases mais n'ayant pas le meme sens.<br/>
+<b> CE </b> est pronon demonstratif, il designe une chose ect <br/>
+Exemple <br/>Ce cahier appartient a modou <br/>
+A lui ce bic <br/>
+NB : le pluriel de <b> ce </b> est <b> ces </b> <br/> Exemple : <b> Ces </b>  cahiers appartiennent a modou.<br/>
+<b> SE </b> précéde les verbes pronominaux. <br/>
+Exemple : se soigner ,se garnir , se laver, s'agenouiller
+ </p> ` ;
 
 // reference de quiz 
 /* Application remplacer les dans ces phrases par le se , ceux ou se convenant
