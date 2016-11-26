@@ -1,0 +1,283 @@
+
+.ajusteTitre {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: #000;
+    width: 70% ;
+    height: 90px ;
+    margin-top: 50px;
+    border: 2px dashed white ;
+    margin-left: 13% ;
+    border-radius: 10px ;
+    background-image: url(../img/fond_header.png);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    width: 140px;
+    height: 4px;
+    margin-left: -43px ;
+    margin-right: 65px ;
+    content: '';
+    background-color: #fff;
+}
+
+.area{
+  text-align:center;
+  font-size:2.5em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+h2.titre1 span {
+  padding: 2px 10px 2px 5px; /* Dans l'ordre: padding-top padding-right padding-bottom padding-left */
+  margin-left: 10px; /* Décaler le titre par rapport aux paragraphes normaux */
+  border-left: 5px solid #458EFF;
+  border-bottom: 2px dotted #458EFF;
+  color: #804000;
+  background-color: black ;
+}
+h2.titre2 {
+  display: inline; /* Ne plus considérer le titre comme un bloc */
+  /* Après, c'est la même chose que pour titre1 : */
+  margin-left: 10px;
+  padding: 2px 10px 2px 5px;
+  border-left: 5px solid #458EFF;
+  border-bottom: 2px dotted #458EFF;
+  color: #804000;
+  background-color: black ;
+}
+
+body {
+   background-color:#333;
+   color:#330066;
+   font-family:Bookman Old Style,serif;
+   font-style:italic;
+}
+ 
+a:link { color:#0000FF; }
+a:vlink { color:#880088; }
+a:alink { color:#FF0000; }
+a:hover { color:#0099FF; }
+th {background-color:black;
+   color:white;
+   font-family:Bookman Old Style,serif;
+   font-style:italic;
+   border: 1px solid #6F8A00 ;
+}
+input {
+background-color:#6F8A00;
+border-color:#333;
+border-style:double;
+}
+b {
+    font-family: Arial, sans-serif;
+    font-style: italic; 
+    font-weight: bold; 
+    font-size: 120%;
+    line-height: 140%; 
+    background-color : deeppink;
+    color : white ;
+}
+i {
+    background-color : black ;
+    color : deepskyblue ;
+    text-decoration: underline ;
+}
+.matieres {
+    font-family: Arial, sans-serif;
+    font-style: italic; 
+    font-weight: bold; 
+    font-size: 210%;
+    line-height: 140%; 
+    background-color : deeppink;
+    color : white ;
+    width: 60% ;
+    border: 2px dashed white ;
+    border-radius: 10px ;
+}
+h4:first-letter {
+    font-weight: bold;
+    font-size: 3em;
+    color: #7a0000; 
+}
+.dimension_image_header {
+    width: 15% ;
+    height: 40px ; 
+    border : 1px solid white ;
+    margin-right: 5% ;
+    float : right ;
+    margin-top: 5px ;
+    border-radius: 30% ;
+}
+.fond_header {
+    background-image: url(../img/fond.jpg);
+   height: 70px ;
+}
+h4 {
+    background-image:  url(../img/fond3.jpg);
+    border-radius: 5px ;
+    border : 4px groove white ;
+}
+.fond_footer {
+    background-image: url(../img/fond.jpg) ;
+    height: 40px ;
+}
+.logo_thies {
+    width: 25%; 
+    float: left ;
+    height: 60px ; 
+    margin-left : 2% ;
+    margin-top: 2px ;
+    border-radius: 50% ; 
+}
+
+.fond_header_acceuil {
+    background-image: url(../img/fond.jpg);
+    height: 80px ;
+    text-align: center ;
+}
+.body_accueil {
+     background-image: url(../img/body.jpg);
+     height: 750px ;
+}
+
+
+.container .bar {
+	font-size: 20px ;
+	width: 300px ;
+	height: 25px ;
+	border : 3px solid  #eaeaea ;
+	margin: 100px auto ;
+	border-radius: 7px ;
+	position: relative;
+	background: rgba(255,255,255,0.6);
+	margin-top: 300px ;	
+}
+.container .bar:after{
+	content: "Chargement ...";
+	font-family: Verdana ;
+	position: absolute; 
+	left: 10% ;
+	top : 150% ;
+}
+
+.container .bar .sphere {
+	display: block ;
+	width: 24px ;
+	height: 100% ;
+	background: #eaeaea ;
+	border-radius: 50% ;
+	-webkit-animation: slide 1.75s infinite ease-in-out alternate  ;
+	-moz-animation: slide 1.75s  infinite ease-in-out alternate ;
+	-ms-animation: slide 1.75s  infinite ease-in-out alternate;
+	-o-animation: slide 1.75s  infinite ease-in-out alternate;
+	animation: slide 1.75s  infinite ease-in-out alternate ;
+}
+
+@-webkit-keyframes slide {
+	to { margin-left: 90% ; }
+}
+
+@-moz-keyframes slide {
+	to { margin-left: 90% ; }
+}
+
+@-ms-keyframes slide {
+	to { margin-left: 90% ; }
+}
+
+@-o-keyframes slide {
+	to { margin-left: 90% ; }
+}
+
+@keyframes slide {
+	to { margin-left: 90% ; }
+}
+
+#content {
+	display: none;
+	text-align: center ;
+}
+
+.text_shadow_footer {
+    color: white ;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 17px ;
+    margin-top: 13px ;
+    margin-left: 30% ;
+}
+.text_shadow_header {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    font-size: 20px ;
+    text-align: center;
+    margin-top: 10px ;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px white;}
+}
+.titre_cours {
+    text-align: center ;
+    font-size: 1.3em ;
+    margin-top:  2px ;
+}
+.menu {
+       margin-top: 20px ; 
+       border : 1px solid white ;
+}
+
+
+
+
+
+
+
+

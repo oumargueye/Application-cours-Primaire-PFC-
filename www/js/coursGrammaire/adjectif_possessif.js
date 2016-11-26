@@ -1,9 +1,10 @@
 
 var coursGrammaireAdjectifPossessif = 
-       " <b>Les adjectifs possessifs </b><br/> " +
+       " <h2 class='titre1'> <span> Les adjectifs possessifs </span> </h2> " +
    " <p>"+
+   "<h4>" +
 " L'adjectif possessif apporte des informations de genre, de nombre, et de personne (information concernant le possesseur).<br/> " +
-" Exemples :<br/> " +
+" <i> Exemple: </i><br/> " +
 " - Ma veste / Mon manteau.<br/> " +
 " - Mes chemises <br/>" +
 " -Votre travail mérite tous nos compliments.<br/> " +
@@ -13,11 +14,15 @@ var coursGrammaireAdjectifPossessif =
 " - Celui (ou ceux) qui parle (nt): mon chien, notre chien.<br/> " +
 " - Celui (ceux) à qui l'on parle: ton chien, votre chien. <br/>" +
 " - Celui (ceux) dont on parle: son chien, leur chien. " +
+ "</h4>" +
 " </p>"+
 
+"<p> " +
+ "<h4>" +
 "<table>" +
+"<caption> Adjectif possessif </caption>" +
 "<tr>" +
-"<td> <b>POSSESSEUR </b></td>  <td><b>POSSESSIF</b></td> <td><b> POSSESSIF</b></td> " +
+"<td> POSSESSEUR </td>  <td>POSSESSIF</td> <td>POSSESSIF</td> " +
   "</tr>" +
   
   "<tr>" +
@@ -56,26 +61,30 @@ var coursGrammaireAdjectifPossessif =
  "  <td> </td>       <td>  Leur	              <td> Leurs </td> " +
    "</tr>"+ 
    "</table> " +
+  " </h4> " + 
+   "</p> " +
    
    " <p>"+
-"<b> Remarque :</b> <br/>" +
+   " <h4> " + 
+"<i> . Remarque :</i> <br/>" +
 "La distinction de genre ne peut se faire que si possesseur et possédé sont au singulier.<br/> " +
 " Utilisation de l'adjectif possessif :<br/> " +
 " -Devant un mot féminin commençant par une voyelle ou par un h muet, on utilise mon, ton, son au féminin.<br/> " +
 " Sa belle histoire ==> Son histoire.<br/> " +
 " L'adjectif possessif indique très souvent un lieu social (parenté, rapport professionnel, utilisation, etc.).<br/> " +
-" Exemples :<br/> " +
+" <i> Exemple: </i><br/> " +
 " Mon père - Mes voisins - ma secrétaire. <br/> " +
 " Les ouvriers occupent leur usine.<br/> " +
 " J'ai perdu mon chemin.<br/> " +
 " L'adjectif peut s'utiliser également, dans certains cas, à la première personne, lorsque l'on s'adresse à un supérieur.<br/> " +
-" Exemple : <br/>" +
+" <i> Exemple: </i><br/>" +
 " Mon général.<br/> " +
 " Cet usage du possessif comme marque de respect persiste à l'intérieur de mots comme : <br/>" +
 " Monsieur, Madame, Mademoiselle, Monseigneur, etc.<br/> " +
 " Dans le cas où la possession (l'appartenance) est évidente, comme pour les parties du corps,<br/> " +
 " l'usage veut que l'on n'utilise pas l'adjectif possessif si la personne est déjà clairement exprimée. <br/>" +
 " J'ai mal au ventre ==> J'ai mal à mon ventre (ne se dira pas). " + 
+" </h4> " + 
 " </p>";
 
 

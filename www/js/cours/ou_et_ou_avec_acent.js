@@ -1,6 +1,7 @@
-var coursOuetOuAvecAcent = "<b>Ou et Où </b>" +
+var coursOuetOuAvecAcent = "<h2 class='titre1'> <span> Ou et Où </span> </h2>" +
          " <p>" +
-            "<b>  ou  </b><br/> " +
+          " <h4>" +
+            "ou <br/>" +
                " 'ou' conjonction de coordination relie des mots ou groupes de mots, elle n'a pas de fonction grammaticale dans la phrase.<br/>" +
 
                " Dans une énumération on la met en général avant le dernier terme.<br/>" +
@@ -8,11 +9,11 @@ var coursOuetOuAvecAcent = "<b>Ou et Où </b>" +
 
                " Pour insister on peut la répéter.<br/>" +
                " Pour ton anniversaire tu peux avoir ou des patins à roulettes, ou une planche à roulettes ou, des rollers." +
- " </p>" +
-
- " <p>" +
-               "<b> Accord du verbe après deux sujets reliés par 'ou'</b><br/>" +
-
+        " </h4> " +
+        " </p>" +
+               "<h2 class='titre1'> <span> Accord du verbe après deux sujets reliés par 'ou'</span> </h2>" +
+       " <p>" +
+        " <h4>" +
                " Si les deux sujets ne sont pas de la même personne le verbe se met au pluriel et à la personne qui a la priorité.<br/>" +
                " Marie ou moi ferons la vaisselle. <br/>                     Toi  ou ton père rangerez la table.<br/>" +
 
@@ -24,10 +25,12 @@ var coursOuetOuAvecAcent = "<b>Ou et Où </b>" +
                " - Si le verbe peut se rapporter simultanément aux deux sujets il se met au pluriel.<br/>" +
                " Cet enfant est ingérable: une récompense ou une punition n'ont aucun effet sur lui.<br/>" +
                " Pendant les vacances la lecture ou le sport  distrairont les enfants" +
-           " </p>"+
+            " </h4> " +
+       " </p>"+
 
           " <p>" +
-           " <b>  où  </b><br/>" +
+           " <h4>" +
+           " où <br/>" +
                " Où ne s'applique qu'à des choses.<br/> Pronom il est le plus souvent complément circonstanciel de lieu (ou de temps)<br/>" +
                " Le Groënland est un pays où je n'aimerais pas vivre, il y fait trop froid. (cc de lieu)<br/>" +
                " L'automne est la saison où les feuilles tombent. (cc de temps)<br/>" +
@@ -37,6 +40,7 @@ var coursOuetOuAvecAcent = "<b>Ou et Où </b>" +
 
                " Où adverbe interrogatif peut être employé dans une interrogation directe ou indirecte.<br/>" +
                " Où va-t-il?  <br/>     Je me demande où il va.<br/>" +
+               " </h4> " +
            " </p>";
    
    var quizOuetOu = [

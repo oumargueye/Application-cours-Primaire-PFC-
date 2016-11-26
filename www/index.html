@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Content-Security-Policy" content="default-src &apos;self&apos; data: gap: https://ssl.gstatic.com &apos;unsafe-eval&apos;; style-src &apos;self&apos; &apos;unsafe-inline&apos;; media-src *">
+        <meta http-equiv="Content-Security-Policy" content="default-src  &apos;self&apos; data: gap: https://ssl.gstatic.com &apos;unsafe-eval&apos;; style-src &apos;self&apos; &apos;unsafe-inline&apos;; media-src *">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -21,161 +21,251 @@
                 position: relative !important;
             }
         </style>
-        <title>Hello World</title>
+        <title>Accueil-GOV Edu !</title>
+        <link rel="stylesheet" href="css/style.css" />
+
     </head>
     <body>
         <div data-role="page" id="pageAcceuil" data-theme="b">
-            <div data-role="header" data-position="fixed">
-                <h1>GOV Edu</h1>
-                <h2>Temple du Savoir</h2>
+            <div data-role="header" class="fond_header_acceuil" data-position="fixed">
+                <div class="area">
+                    gov edu
+                </div>
+                <b> Temple du Savoir </b>
             </div>
 
-            <div data-role="main" class="ui-content">
-                <h1><b>Matiéres</b></h1>
-                <div data-role="collapsibleset">
-                    <div data-role="collapsible">
-                        <h1> Grammaire </h1>
-                        <ul data-role="listview" data-inset="true">
-                            <li><a href="#" id="genreMasculinFemininDesNoms">Genre masculin et feminin des noms</a></li>
-                            <li><a href="#" id="complementCirconstancielDeLieu" >Complément Circonstanciel de Lieu</a></li>
-                            <li><a href="#" id="adjectifQualificatif">Adjectif qualificatif</a></li>
-                            <li><a href="#" id="plurielDesNomsAilEtAl">Pluriel des noms en ail et al</a></li>
-                            <li><a href="#" id="nomCommunNomPropre">Nom commun, Nom propre</a></li>
-                            <li><a href="#" id="adjectifPossessif">Adjectif possessif</a></li>
-                            <li><a href="#" id="complementDobjetDirect">Complément d'objet direct</a></li>
-                            <li><a href="#" id="complementDobjetInDirect">Complément d'objet indirect </a></li>
-                        </ul>
+            <div class="body_accueil">
+                <div data-role="main" class="ui-content">
+                    <div class="ajusteTitre">
+                        <div class="wrapper">
+                            <p class="title">Matieres</p>
+                        </div>
                     </div>
-                    <div data-role="collapsible">
-                        <h1>Orthographe</h1>
-                        <ul data-role="listview" data-inset="true">
-                            <li><a href="#" id="ouEtOu">Ou et Où</a></li>
-                            <li><a href="#" id='accordAdjectif'>Accord de l'adjectif qualificatif</a></li>
-                            <li><a href="#" id="leGdur">Le G dur</a></li>
-                            <li><a href="#" id="motEnEuilleEtEnEuil">Les mots en euille et euil</a></li>
-                            <li><a href="#" id="emploiDeleursEtleur">Emploi de leurs et leur</a></li>
-                            <li><a href="#" id="nomsFemininEnEurEtOeur">Les noms féminins en eur , oeur</a></li>
-                            <li><a href="#" id="homonymeMaisMetMes">Les Homonymes mais, met et mes</a></li>
-                            <li><a href="#" id="EmploiDeCeSeCeux">L'emploi de ce et de se </a></li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible">
-                        <h1>Vocabulaire</h1>
-                        <ul data-role="listview" data-inset="true">
-                            <li><a href="#" id="radicaux">Radicaux</a></li>
-                            <li><a href="#" id="prefixe">Préfixe</a></li>
-                            <li><a href="#" id="suffixe">Suffixe</a></li>
-                            <li><a href="#" id="champLexical">Le champ lexical</a></li>
-                            <li><a href="#" id="synonymie">Synonymie</a></li>
-                            <li><a href="#" id="antonymie">Antonymie</a></li>
-                            <li><a href="#" id="homonymie">Homonymie</a></li>
-                            <li><a href="#" id="paronymie">Paronymie</a></li>
-                        </ul>
+
+                    <div data-role="collapsibleset">
+                        <div data-role="collapsible">
+                            <h1> Grammaire </h1>
+                            <ul data-role="listview" data-inset="true">
+                                <li><a href="#" id="genreMasculinFemininDesNoms">Genre masculin et feminin des noms</a></li>
+                                <li><a href="#" id="complementCirconstancielDeLieu" >Complément Circonstanciel de Lieu</a></li>
+                                <li><a href="#" id="adjectifQualificatif">Adjectif qualificatif</a></li>
+                                <li><a href="#" id="plurielDesNomsAilEtAl">Pluriel des noms en ail et al</a></li>
+                                <li><a href="#" id="nomCommunNomPropre">Nom commun, Nom propre</a></li>
+                                <li><a href="#" id="adjectifPossessif">Adjectif possessif</a></li>
+                                <li><a href="#" id="complementDobjetDirect">Complément d'objet direct</a></li>
+                                <li><a href="#" id="complementDobjetInDirect">Complément d'objet indirect </a></li>
+                            </ul>
+                        </div>
+                        <div data-role="collapsible">
+                            <h1>Orthographe</h1>
+                            <ul data-role="listview" data-inset="true">
+                                <li><a href="#" id="ouEtOu">Ou et Où</a></li>
+                                <li><a href="#" id='accordAdjectif'>Accord de l'adjectif qualificatif</a></li>
+                                <li><a href="#" id="leGdur">Le G doux ou le G dur </a></li>
+                                <li><a href="#" id="motEnEuilleEtEnEuil">Les mots euil</a></li>
+                                <li><a href="#" id="emploiDeleursEtleur">Emploi de leurs et leur</a></li>
+                                <li><a href="#" id="nomsFemininEnEurEtOeur">Les noms en EUR</a></li>
+                                <li><a href="#" id="homonymeMaisMetMes">Les Homonymes mais, met et mes</a></li>
+                                <li><a href="#" id="EmploiDeCeSeCeux">L'emploi de ce et de se </a></li>
+                            </ul>
+                        </div>
+                        <div data-role="collapsible">
+                            <h1>Vocabulaire</h1>
+                            <ul data-role="listview" data-inset="true">
+                                <li><a href="#" id="radicaux">Radicaux</a></li>
+                                <li><a href="#" id="prefixe">Préfixe</a></li>
+                                <li><a href="#" id="suffixe">Suffixe</a></li>
+                                <li><a href="#" id="champLexical">Le champ lexical</a></li>
+                                <li><a href="#" id="synonymie">Synonymie</a></li>
+                                <li><a href="#" id="antonymie">Antonymie</a></li>
+                                <li><a href="#" id="homonymie">Homonymie</a></li>
+                                <li><a href="#" id="paronymie">Paronymie</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
             </div>
-
-            <div data-role="footer" data-position="fixed">
-                <h1>Footer Text</h1>
+            <div data-role="footer" class="fond_footer" data-position="fixed">
             </div>
         </div>
 
         <div data-role="page" id="pageCours" data-theme="b">
 
             <div data-role="panel" id="myPanel" data-theme="b">
-                <h1><b>Matiéres</b></h1>
+                <h1 class="matieres">Matiéres</h1>
                 <div data-role="collapsibleset">
                     <div data-role="collapsible">
                         <h1>Grammaire</h1>
                         <ul data-role="listview" data-inset="true">
-                            <li><a href="#" id="genreMasculinFemininDesNoms">Genre masculin et feminin des noms</a></li>
-                            <li><a href="#" id="complementCirconstancielDeLieu" >Complément Circonstanciel de Lieu</a></li>
-                            <li><a href="#" id="adjectifQualificatif">Adjectif qualificatif</a></li>
-                            <li><a href="#" id="plurielDesNomsAilEtAl">Pluriel des noms en ail et al</a></li>
-                            <li><a href="#" id="nomCommunNomPropre">Nom commun, Nom propre</a></li>
-                            <li><a href="#" id="adjectifPossessif">Adjectif possessif</a></li>
-                            <li><a href="#" id="complementDobjetDirect">Complément d'objet direct</a></li>
-                            <li><a href="#" id="complementDobjetInDirect">Complément d'objet indirect </a></li>
+                            <li><a href="#" id="genreMasculinFemininDesNoms2">Genre masculin et feminin des noms</a></li>
+                            <li><a href="#" id="complementCirconstancielDeLieu2" >Complément Circonstanciel de Lieu</a></li>
+                            <li><a href="#" id="adjectifQualificatif2">Adjectif qualificatif</a></li>
+                            <li><a href="#" id="plurielDesNomsAilEtAl2">Pluriel des noms en ail et al</a></li>
+                            <li><a href="#" id="nomCommunNomPropre2">Nom commun, Nom propre</a></li>
+                            <li><a href="#" id="adjectifPossessif2">Adjectif possessif</a></li>
+                            <li><a href="#" id="complementDobjetDirect2">Complément d'objet direct</a></li>
+                            <li><a href="#" id="complementDobjetInDirect2">Complément d'objet indirect </a></li>
                         </ul>
                     </div>
                     <div data-role="collapsible">
                         <h1>Orthographe</h1>
                         <ul data-role="listview" data-inset="true">
-                            <li><a href="#" id="ouEtOu">Ou et Où</a></li>
-                            <li><a href="#" id='accordAdjectif'>Accord de l'adjectif qualificatif</a></li>
-                            <li><a href="#" id="leGdur">Le G dur</a></li>
-                            <li><a href="#" id="motEnEuilleEtEnEuil">Les mots en euille et euil</a></li>
-                            <li><a href="#" id="emploiDeleursEtleur">Emploi de leurs et leur</a></li>
-                            <li><a href="#" id="nomsFemininEnEurEtOeur">Les noms féminins en eur , oeur</a></li>
-                            <li><a href="#" id="homonymeMaisMetMes">Les Homonymes mais, met et mes</a></li>
-                            <li><a href="#" id="EmploiDeCeSeCeux">L'emploi de ce, se et ceux</a></li>
+                            <li><a href="#" id="ouEtOu2">Ou et Où</a></li>
+                            <li><a href="#" id='accordAdjectif2'>Accord de l'adjectif qualificatif</a></li>
+                            <li><a href="#" id="leGdur2">Le G dur</a></li>
+                            <li><a href="#" id="motEnEuilleEtEnEuil2">Les mots en euille et euil</a></li>
+                            <li><a href="#" id="emploiDeleursEtleur2">Emploi de leurs et leur</a></li>
+                            <li><a href="#" id="nomsFemininEnEurEtOeur2">Les noms en EUR</a></li>
+                            <li><a href="#" id="homonymeMaisMetMes2">Les Homonymes mais, met et mes</a></li>
+                            <li><a href="#" id="EmploiDeCeSeCeux2">L'emploi de ce, se et ceux</a></li>
                         </ul>
                     </div>
                     <div data-role="collapsible">
                         <h1>Vocabulaire</h1>
                         <ul data-role="listview" data-inset="true">
-                            <li><a href="#" id="radicaux">Radicaux</a></li>
-                            <li><a href="#">List Item</a></li>
-                            <li><a href="#">List Item</a></li>
+                            <li><a href="#" id="radicaux2">Radicaux</a></li>
+                            <li><a href="#" id="prefixe2">Préfixe</a></li>
+                            <li><a href="#" id="suffixe2">Suffixe</a></li>
+                            <li><a href="#" id="champLexical2">Le champ lexical</a></li>
+                            <li><a href="#" id="synonymie2">Synonymie</a></li>
+                            <li><a href="#" id="antonymie2">Antonymie</a></li>
+                            <li><a href="#" id="homonymie2">Homonymie</a></li>
+                            <li><a href="#" id="paronymie2">Paronymie</a></li>
                         </ul>
                     </div>
                 </div>
+
+
+
             </div>
 
-            <div data-role="header" data-position="fixed">
-                <h1>GOV Edu</h1>
-                <h2>Temple du Savoir</h2>
+            <div data-role="header" class="fond_header"  data-position="fixed">
+                <a href="#myPanel" class="ui-btn ui-btn-left ui-btn-icon-notext ui-icon-grid"></a>
+                <img class="dimension_image_header" src="img/icone.jpg" />
+                <div class="titre_cours">
+                    <b>  GOV EDU </b> <br/>
+                    Temple du Savoir
+                </div>
+
             </div>
 
             <div data-role="main" class="ui-content">
-                <a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow">Programme</a>
                 <div id="divCours"></div>
                 <button class="ui-btn" id='btnLancerQuiz'>Lancer Quiz</button>
             </div>
 
-            <div data-role="footer" data-position="fixed">
-                <h1>Footer Text</h1>
+            <div data-role="footer" class="fond_footer" data-position="fixed">
+                <div class="text_shadow_footer">
+                </div>
+
             </div>
         </div>
 
         <div data-role="page" id="pageQuiz" data-theme="b">
-            <div data-role="header" data-position="fixed">
-                <h1>Welcome</h1>
+            <div data-role="header" class="fond_header"  data-position="fixed">
+                <img class="dimension_image_header" src="img/icone.jpg" />
+                <div class="titre_cours">
+                    <b>  GOV EDU </b> <br/>
+                    Temple du Savoir
+                </div>
+
             </div>
 
             <div data-role="main" class="ui-content">
-                <p id="divQuiz">Question ....... ?</p>
-                <form>
-                    <fieldset data-role="controlgroup" data-iconpos="right">
-                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6a" value="choix1" checked="checked">
-                        <label for="radio-choice-w-6a">Choix 1</label>
-                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6b" value="Choix2">
-                        <label for="radio-choice-w-6b">Choix 2</label>
-                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6c" value="Choix3">
-                        <label for="radio-choice-w-6c">Choix 3</label>
-                        <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6d" value="Choix4">
-                        <label for="radio-choice-w-6d">Choix 4</label>
-                    </fieldset>
-                </form>
-                <button class="ui-btn" id='btnLancerQuiz'>Suivant</button>
-            </div>
 
-            <div data-role="footer" data-position="fixed">
-                <h1>Footer Text</h1>
+                <div class="body_accueil">
+                    <p id="divQuiz">Questions ...? </p>
+                    <form>
+                        <fieldset data-role="controlgroup" data-iconpos="right">
+                            <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6a" value="choix1" checked="checked">
+                            <label for="radio-choice-w-6a"> choix 1</label>
+                            <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6b" value="Choix2">
+                            <label for="radio-choice-w-6b"> choix 2 </label>
+                        </fieldset>
+                    </form>
+                    <button class="ui-btn" id='btnLancerQuiz'>Suivant</button>
+
+                    <div data-role="main" class="ui-content">
+                        <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> Aide </a>
+
+                        <div data-role="popup" id="myPopup" class="ui-content">
+                            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                            <p class="titre_cours"> Ce quiz consite a choisir votre réponse et de cliquer sur le bouton
+                                <b>"Suivant"</b> </p>
+                            <p><b></b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" class="fond_footer" data-position="fixed">
+
             </div>
         </div>
 
+        <div id="pageResume" data-role="page" data-add-back-btn="true">
 
+            <header data-role="header"><h1>jQuery Mobile</h1></header>
+            <div class="ui-content" data-role="main">
+                <div onload="questions(); compte_rebours()">
+
+                    <table border="1" style="border-color: blue " >
+                        <tr>
+                            <th height="200"> Questions </th>
+                            <th colspan="3">
+                                <p id="seriequestion"></p>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th> Réponses </th>
+                            <th width="400">
+                                <p id="indice"></p>
+                            </th>
+                            <th width="50">
+                                <p> Pts </p>
+                                <p id="pts">0 </p>
+                            </th>
+                            <th width="80" height="50" style=" background-color:maroon">
+                                <p> Temps </p>
+                                <p id="sec"></p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th> Choix  </th>
+                            .<th colspan="3">
+                                <input type="button" value="A" onclick="tester('a')">
+                                <input type="button" value="B" onclick="tester('b')">
+                                <input type="button" value="C" onclick="tester('c')">
+                                <input type="button" value="D" onclick="tester('d')">
+                            </th>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </div>
+
+            <footer data-role="footer" data-position="fixed"><h1>Pearson</h1></footer>
+        </div>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <script type="text/javascript">
+                                    $(document).ready(function(){
+                                    $(".bar").fadeOut(5000, function(){
+                                    $("#divCours").fadeIn(1000);
+                                    });
+                                    })
+        </script>
 
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-1.11.1.min.js" id="cordova-jquery"></script>
         <script type="text/javascript" id="jqm-trans-disable">
-            /* For having a faster transition */
-            $(document).on("mobileinit", function () {
-            $.mobile.defaultPageTransition = "none";
-            $.mobile.defaultDialogTransition = "none";
-            });
+                                    /* For having a faster transition */
+                                    $(document).on("mobileinit", function () {
+                                    $.mobile.defaultPageTransition = "none";
+                                    $.mobile.defaultDialogTransition = "none";
+                                    });
         </script>
         <script type="text/javascript" src="js/jquery-1.5.0.mobile.min.js"></script>
 
@@ -206,7 +296,11 @@
         <script type="text/javascript" src="js/coursVocabulaire/homonymie.js"></script>
         <script type="text/javascript" src="js/coursVocabulaire/paronymie.js"></script>
 
+        <script type="text/javascript" src="js/coursGrammairePanel/genre_masculin_feminin_des_noms.js"></script>
+
+        <script type="text/javascript" src="js/resumeQuiz.js"></script>
         <script type="text/javascript" src="js/quiz.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+
     </body>
 </html>

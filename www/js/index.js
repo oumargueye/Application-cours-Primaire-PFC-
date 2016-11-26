@@ -51,6 +51,36 @@ var app = {
         listItemHomonymie = document.getElementById('homonymie') ;
         listItemParonymie = document.getElementById('paronymie');
         
+        // listItem Grammaire(panel)
+        listItemGenreMasculinFemininDesNoms2 = document.getElementById("genreMasculinFemininDesNoms2");
+        listItemComplementCirconstancielDeLieu2 = document.getElementById("complementCirconstancielDeLieu2");
+        listItemAdjectifQualificatif2 = document.getElementById('adjectifQualificatif2') ;
+        listItemPlurielDesNomsAilEtAl2 = document.getElementById('plurielDesNomsAilEtAl2');
+        listItemNomCommunNomPropre2 = document.getElementById('nomCommunNomPropre2') ;
+        listItemAdjectifPossessif2 = document.getElementById('adjectifPossessif2') ;
+        listItemComplementDobjetDirect2 = document.getElementById('complementDobjetDirect2') ;
+        listItemComplementDobjetInDirect2 = document.getElementById('complementDobjetInDirect2') ;
+       
+         // listItem Orthographe(panel)
+         listItemOuEtOu2 = document.getElementById('ouEtOu2');
+         listItemAccordAdjectif2 = document.getElementById('accordAdjectif2') ;
+         listItemLeGdur2 = document.getElementById('leGdur2');
+         listItemMotEnEuilleEtEnEuil2 = document.getElementById('motEnEuilleEtEnEuil2') ;
+         listItemEmploiDeleursEtleur2 = document.getElementById('emploiDeleursEtleur2') ;
+         listItemNomsFemininEnEurEtOeur2 = document.getElementById('nomsFemininEnEurEtOeur2') ;
+         listItemHomonymeMaisMetMes2 = document.getElementById('homonymeMaisMetMes2') ;
+         listItemEmploiDeCeSeCeux2 = document.getElementById('EmploiDeCeSeCeux2');
+         
+         // listItem vocabulaire(panel)
+         listItemradicaux2 = document.getElementById('radicaux2');
+         listItemprefixe2 = document.getElementById('prefixe2');
+         listItemsuffixe2 = document.getElementById('suffixe2');
+         listItemchampLexical2 = document.getElementById('champLexical2');
+         listItemsynonymie2 = document.getElementById('synonymie2') ;
+         listItemantonymie2 = document.getElementById('antonymie2') ;
+         listItemhomonymie2 = document.getElementById('homonymie2') ;
+         listItemparonymie2 = document.getElementById('paronymie2') ;
+        
         //Ajout des listeners D'orthographe
         listItemOuetOu.addEventListener('click', listItemOuetOuAction);
         listItemAccordAdjectif.addEventListener('click' , listItemAccordAdjectifAction);
@@ -82,8 +112,36 @@ var app = {
         listItemAntonymie.addEventListener('click' , listItemAntonymieAction);
         listItemHomonymie.addEventListener('click' , listItemHomonymieAction);
         listItemParonymie.addEventListener('click' , listItemParonymieAction);
-    }
-   
+        
+        // ajout des listeners de grammaire (panel)
+        listItemGenreMasculinFemininDesNoms2.addEventListener('click' ,listItemGenreMasculinFemininDesNomsAction);
+        listItemComplementCirconstancielDeLieu2.addEventListener('click', listItemComplementCirconstancielDeLieuAction);
+        listItemAdjectifQualificatif2.addEventListener('click' , listItemAdjectifQualificatifAction);
+        listItemPlurielDesNomsAilEtAl2.addEventListener('click', listItemPlurielDesNomsEnAilEtAlAction);
+        listItemNomCommunNomPropre2.addEventListener('click' , listItemNomCommunNomPropreAcion);
+        listItemAdjectifPossessif2.addEventListener('click' , listItemAdjectifPossessifAction) ;
+        listItemComplementDobjetDirect2.addEventListener('click' , listItemComplementDobjetDirectAction);
+        listItemComplementDobjetInDirect2.addEventListener('click' , listItemComplementDobjetIndirectAction) ;
+        
+        // ajout des listeners d'orthographe (panel)
+        listItemOuEtOu2.addEventListener('click', listItemOuetOuAction);
+        listItemAccordAdjectif2.addEventListener('click' , listItemAccordAdjectifAction) ;
+        listItemLeGdur2.addEventListener('click' , listItemGdurAction) ;
+        listItemMotEnEuilleEtEnEuil2.addEventListener('click', listItemMotEnEuilleEtEuilAction) ;
+        listItemEmploiDeleursEtleur2.addEventListener('click' , listItemEmploiDeLeursEtLeurAction) ;
+        listItemNomsFemininEnEurEtOeur2.addEventListener('click' , listItemNomFemininEnEurEtOeurAction);
+        listItemHomonymeMaisMetMes2.addEventListener('click' , listItemHomonymeMaisMetMesAction);
+        listItemEmploiDeCeSeCeux2.addEventListener('click', listItemEmploiDeCeSeCeuxAction) ;
+        // Ajout des listeners vocabulaire (panel)
+        listItemradicaux2.addEventListener('click' , listItemradicauxAction ) ;
+        listItemprefixe2.addEventListener('click' , listItemPrefixeAction) ;
+        listItemsuffixe2.addEventListener('click' ,listItemSuffixeAction ) ;
+        listItemchampLexical2.addEventListener('click' , listItemChampLexicalAcion ) ;
+        listItemsynonymie2.addEventListener('click' , listItemSynonymieAction ) ;
+        listItemantonymie2.addEventListener('click' , listItemAntonymieAction ) ;
+        listItemhomonymie2.addEventListener('click' , listItemHomonymieAction ) ;
+        listItemparonymie2.addEventListener('click' , listItemParonymieAction ) ;
+    } 
 };
 
 app.initialize();
@@ -93,6 +151,7 @@ var divCours;
 var divQuiz;
 var btnLancerQuiz;
 var btnSuivant;
+
 
 // variables Orthographe 
 var listItemOuetOu;
@@ -113,7 +172,33 @@ var listItemNomCommunNomPropre ;
 var listItemAdjectifPossessif ;
 var listItemComplementDobjetDirect ;
 var listItemComplementDobjetIndirect ;
-
+// variables Grammaire (panel)
+var listItemGenreMasculinFemininDesNoms2 ;
+var listItemComplementCirconstancielDeLieu2;
+var listItemAdjectifQualificatif2 ; 
+var listItemPlurielDesNomsAilEtAl2 ;
+var listItemNomCommunNomPropre2 ;
+var listItemAdjectifPossessif2 ;
+var listItemComplementDobjetDirect2 ;
+var listItemComplementDobjetInDirect2 ;
+// variables d'orthographe(panel)
+  var listItemOuEtOu2 ;
+  var listItemAccordAdjectif2 ;
+  var listItemLeGdur2 ;
+  var listItemMotEnEuilleEtEnEuil2 ;
+  var listItemEmploiDeleursEtleur2 ;
+  var listItemNomsFemininEnEurEtOeur2 ;
+  var listItemHomonymeMaisMetMes2 ;
+  var listItemEmploiDeCeSeCeux2 ;
+  // variables vocabulaire(panel)
+  var listItemradicaux2 ;
+  var listItemprefixe2 ;
+  var listItemsuffixe2 ;
+  var listItemchampLexical2 ;
+  var listItemsynonymie2 ;
+  var listItemantonymie2 ;
+  var listItemhomonymie2 ;
+  var listItemparonymie2 ;
 // variables Vocabulaire
 var listItemradicaux ;
 var listItemPrefixe ;
@@ -211,6 +296,7 @@ function listItemComplementDobjetIndirectAction(){
     ouvrirPageCours();
 }
 
+
 // fonction Vocabulaire
 function listItemradicauxAction(){
     changerCours(coursVocabulaireRadicaux);
@@ -253,7 +339,8 @@ function listItemParonymieAction(){
 }
 
 function ouvrirPageCours(){
-   $.mobile.changePage('#pageCours', {transition: "slide"});  
+   $.mobile.changePage('#pageCours', {transition: "slide"});
+   $("#myPanel").panel("close");
 }
 
 function changerCours(nouveauCours) {
@@ -263,4 +350,5 @@ function changerCours(nouveauCours) {
 function changerTxt(texte, idChamps) {
     idChamps.innerHTML = texte;
 }
+
 
