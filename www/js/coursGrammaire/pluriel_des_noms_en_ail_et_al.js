@@ -20,3 +20,12 @@ var coursGrammairePlurielDesNomsEnAilEtEnAl =
 " </h4> " +
 " </p> " ;
 
+var quizPlurielDesNomsEnAilEtEnAl = [
+     ["Il utilise différents <div class='complement'>........</div> pour sa sculpture", "<div class='reponse'>métaux</div>", "<div class='reponse'>métals</div>"],
+     ["Le journal parle des <div class='complement'>........</div> enragés qui envahissent la région", "<div class='reponse'>chacals</div>", "<div class='reponse'>chacaux</div>"],
+     ["Les <div class='complement'>........</div> sont sur la ligne de départ", "<div class='reponse'>chevaux</div>", "<div class='reponse'>chevals</div>"],
+     ["Les <div class='complement'>........</div> des maçcons sont fatigants.", "<div class='reponse'>travaux</div>", "<div class='reponse'>travails</div>"],
+     ["Des <div class='complement'>........</div> seront organisés le mois prochain dans la région ", "<div class='reponse'>carnavals</div>", "<div class='reponse'>carnavaux</div>"]
+   ] ;
+
+

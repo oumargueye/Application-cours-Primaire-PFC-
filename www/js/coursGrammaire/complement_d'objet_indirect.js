@@ -23,4 +23,13 @@ var coursGrammaireComplementDobjetIndirect =
 " de quoi se souvient Ousmane ? => de sa leçon (COI)" +
 "</h4>" +
   " </p>" ;
+  
+   var quizCOI = [
+     ["Cet athlète pense <div class='complement'>aux prochains jeux olympiques</div>.", "<div class='reponse'>C.O.I</div>", "<div class='reponse'>C.O.D</div>"],
+     ["j'ai oublié <div class='complement'>mon livre</div> d'anglais en classe", "<div class='reponse'>C.O.D</div>", "<div class='reponse'>C.O.I</div>"],
+     ["Je demande <div class='complement'>à ces enfants</div> de faire moins de bruit. ", "<div class='reponse'>C.O.I</div>", "<div class='reponse'>C.O.D</div>"],
+     ["Le guide parla <div class='complement'>aux randonneurs</div> pour les rassurer. ", "<div class='reponse'>C.O.I</div>", "<div class='reponse'>C.O.D</div>"],
+     ["Il a créé <div class='complement'>une association</div> pour aider les enfants malades.", "<div class='reponse'>C.O.D</div>", "<div class='reponse'>C.O.I</div>"]
+   ] ;
+
 

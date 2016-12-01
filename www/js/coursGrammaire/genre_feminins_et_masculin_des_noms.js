@@ -47,5 +47,14 @@ var coursGrammaireGenreMasculinFeminin =
 "</h4>" +
 "</p> " ;
 
+var quizGenreNoms = [
+     [" <div class='autres_complement'>Echappatoire</div> ?", "<div class='reponse'>féminin</div>", "<div class='reponse'>masculin</div>","<div class='reponse'>masculin ou féminin</div>"],
+     ["<div class='autres_complement2'>Icône</div> ?", "<div class='reponse'>féminin</div>", "<div class='reponse'>masculin ou féminin </div>","<div class='reponse'>masculin</div>"],
+     ["<div class='autres_complement'>Aprés-midi</div>", "<div class='reponse'> masculin ou féminin </div>", "<div class='reponse'>féminin</div>","<div class='reponse'>masculin</div>"],
+     [" <div class='autres_complement2'>Eclair</div> ", "<div class='reponse'>masculin</div>", "<div class='reponse'>féminin</div>","<div class='reponse'>masculin ou féminin </div>"],
+     ["<div class='autres_complement'>Etage</div>", "<div class='reponse'>masculin</div>", "<div class='reponse'>féminin</div>","<div class='reponse'>masculin ou féminin </div>"]
+   ] ;
+
+
 
 

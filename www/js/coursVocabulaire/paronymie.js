@@ -13,4 +13,12 @@ var coursVocabulaireParonymie =
 " + enduire pour induire etc. " +
 " </h4>" +
   "</p>";
+  
+   var quizParonyme = [
+     ["Ablaye a beaucoup <div class='complement'>d'........</div>  pour son chat", "<div class='reponse'>affection</div>", "<div class='reponse'>infection</div>"],
+     [" En été, une douce <div class='complement'>........</div>  rafraîchit agréablement. ", "<div class='reponse'>brise</div>", "<div class='reponse'>bise</div>"],
+     [" La petite fille ramasse des coquillages sur le <div class='complement'>........</div>  ", "<div class='reponse'>rivage</div>", "<div class='reponse'>virage</div>"],
+     ["Mon chef m'a fait une <div class='complement'>........</div>  d'avancement au sein de la société. ", "<div class='reponse'>proposition</div>", "<div class='reponse'>préposition</div>"],
+     [" L'<div class='complement'>........</div>  du volcan n'a causé que des dégâts matériels. ", "<div class='reponse'>éruption</div>", "<div class='reponse'>irruption</div>"]
+   ] ;
 

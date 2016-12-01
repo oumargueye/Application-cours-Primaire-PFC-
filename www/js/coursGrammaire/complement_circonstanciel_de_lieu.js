@@ -80,6 +80,15 @@ var coursGrammaireComplementCirconstancielDeLieu =
 " </h4>" +
 " </p> " ;
 
+var quizCCl = [
+     ["J'ai acheté des vêtements <div class='complement'>dans la boutique</div>", "<div class='reponse'>C.C.L</div>", "<div class='reponse'>C.C.T</div>","<div class='reponse'>C.C.M</div>"],
+     ["<div class='complement'>Ce matin</div>, j'ai acheté des vêtements", "<div class='reponse'>C.C.T</div>", "<div class='reponse'>C.C.M</div>","<div class='reponse'>C.C.L</div>"],
+     ["Nous resplendirons <div class='complement'>à la fête du village</div>", "<div class='reponse'>C.C.L</div>", "<div class='reponse'>C.C.T</div>","<div class='reponse'>C.C.M</div>"],
+     ["J'ai acheté des vêtements <div class='complement'>avec plaisir</div>", "<div class='reponse'>C.C.M</div>", "<div class='reponse'>C.C.L</div>","<div class='reponse'>C.C.T</div>"],
+     ["Je te les montre <div class='complement'>dès que possible</div>", "<div class='reponse'>C.C.T</div>", "<div class='reponse'>C.C.L</div>","<div class='reponse'>C.C.M</div>"]
+   ] ;
+
+
 
 
 

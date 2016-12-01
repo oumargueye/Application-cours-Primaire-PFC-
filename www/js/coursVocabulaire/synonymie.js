@@ -13,3 +13,11 @@ var coursVocabulaireSynonymie =
 " <i> Exemple: </i> <br/> - Elle a envoyé un colis = expédier.<br/> - On a envoyé un expert = déléguer. " +
 " </h4>" +
 "</p>";
+
+var quizSynonymes = [
+     ["Regarde, comme ce ballon est  <div class='complement'>gros</div>", "<div class='reponse'>énorme</div>", "<div class='reponse'>agréable</div>","<div class='reponse'>adoré</div>"],
+     ["Cette journée a été  <div class='complement'>plaisante</div>. ", "<div class='reponse'>agréable</div>", "<div class='reponse'>fortuné</div>","<div class='reponse'>néfaste</div>"],
+     ["Tout ceci est  <div class='complement'>nécessaire</div> pour ta réussite.", "<div class='reponse'>indispensable</div>", "<div class='reponse'>adoré</div>","<div class='reponse'>énorme</div>"],
+     ["Cet homme est très  <div class='complement'>riche</div>.", "<div class='reponse'>fortuné</div>", "<div class='reponse'>énorme</div>","<div class='reponse'>agréable</div>"],
+     ["Cet aliment est  <div class='complement'>mauvais</div> pour ta santé.", "<div class='reponse'>néfaste</div>", "<div class='reponse'>indispensable</div>","<div class='reponse'>minuscule</div>"]
+   ] ;

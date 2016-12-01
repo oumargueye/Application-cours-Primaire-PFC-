@@ -88,4 +88,12 @@ var coursGrammaireAdjectifPossessif =
 " </p>";
 
 
+var quizAdjectifPossessif = [
+     ["<div class='complement'>........</div> gomme n'éfface pas grand chose", "<div class='reponse'>Sa</div>", "<div class='reponse'>Son</div>","<div class='reponse'>Ses</div>"],
+     ["<div class='complement'>........</div> imperméable est a la mode.", "<div class='reponse'>Son</div>", "<div class='reponse'>Sa</div>","<div class='reponse'>Ses</div>"],
+     ["<div class='complement'>........</div> flèches sont très belles mais peu efficaces : ce ne sont que des jouets.", "<div class='reponse'>Ses</div>", "<div class='reponse'>Son</div>","<div class='reponse'>Sa</div>"],
+     ["<div class='complement'>........</div> clé de maison a été perdue dans cette cour.", "<div class='reponse'>Sa</div>", "<div class='reponse'>Ses</div>","<div class='reponse'>Son</div>"],
+     ["<div class='complement'>........</div> arbalète est un jouet qu'on lui a offert pour ses 10 ans.", "<div class='reponse'>Son</div>", "<div class='reponse'>Sa</div>","<div class='reponse'>Ses</div>"]
+   ] ;
+
 

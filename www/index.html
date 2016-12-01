@@ -152,7 +152,9 @@
 
             <div data-role="main" class="ui-content">
                 <div id="divCours"></div>
-                <button class="ui-btn" id='btnLancerQuiz'>Lancer Quiz</button>
+                <button class="ui-btn" id='btnLancerQuiz'>
+                    <div class="bouton"> Lancer Quiz </div>
+                </button>
             </div>
 
             <div data-role="footer" class="fond_footer" data-position="fixed">
@@ -175,26 +177,37 @@
             <div data-role="main" class="ui-content">
 
                 <div class="body_accueil">
-                    <p id="divQuiz">Questions ...? </p>
+                    <b> Complétez ces expressions </b>
+                    <p id="divQuiz" class="titre_cours" >Questions ...? </p>
                     <form>
                         <fieldset data-role="controlgroup" data-iconpos="right">
-                            <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6a" value="choix1" checked="checked">
-                            <label for="radio-choice-w-6a"> choix 1</label>
-                            <input type="radio" name="radio-choice-w-6" id="radio-choice-w-6b" value="Choix2">
-                            <label for="radio-choice-w-6b"> choix 2 </label>
+                            <input type="radio" name="radio" id="r1" value="choix1">
+                            <label for="r1" id="labelChoix1">choix 1</label>
+
+                            <input type="radio" name="radio" id="r2" value="Choix">
+                            <label for="r2" id="labelChoix2">choix 2 </label>
+
+                            <input type="radio" name="radio" id="r3" value="choix">
+                            <label for="r3" id="labelChoix3">choix 3</label>
+
+                            <input type="radio" name="radio" id="r4" value="choix">
+                            <label for="r4" id="labelChoix4">choix 4</label>
                         </fieldset>
                     </form>
-                    <button class="ui-btn" id='btnLancerQuiz'>Suivant</button>
+                    <button class="ui-btn" id='btnSuivant'>
+                        <div class="bouton">   Suivant </div>
+                    </button>
 
-                    <div data-role="main" class="ui-content">
-                        <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> Aide </a>
 
-                        <div data-role="popup" id="myPopup" class="ui-content">
-                            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-                            <p class="titre_cours"> Ce quiz consite a choisir votre réponse et de cliquer sur le bouton
-                                <b>"Suivant"</b> </p>
-                            <p><b></b></p>
-                        </div>
+                    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">
+                        <div class="bouton"> Aide </div>
+                    </a>
+
+                    <div data-role="popup" id="myPopup" class="ui-content">
+                        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                        <p class="titre_cours"> Ce quiz consite a choisir votre réponse et de cliquer sur le bouton
+                            <b>"Suivant"</b> </p>
+                        <p><b></b></p>
                     </div>
                 </div>
             </div>

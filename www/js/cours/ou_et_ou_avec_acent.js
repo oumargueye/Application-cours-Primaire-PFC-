@@ -44,9 +44,9 @@ var coursOuetOuAvecAcent = "<h2 class='titre1'> <span> Ou et Où </span> </h2>" 
            " </p>";
    
    var quizOuetOu = [
-     ["..... vas tu ?", "où", "ou"],
-     ["Tu viens ..... tu restes ?", "ou", "où"],
-     ["Je ne sais pas ..... j'ai mis mes clés.", "où", "ou"],
-     ["Tu préfère aller à la piscine ..... faire du vélo", "ou", "où"],
-     ["Cette année, nous irons à la mère ..... à la campagne.", "ou", "où"]
+     ["<div class='complement'>........</div> vas tu ?", "<div class='reponse'>où</div>", "<div class='reponse'>ou</div>"],
+     ["Tu viens <div class='complement'>........</div> tu restes ?", "<div class='reponse'>ou</div>", "<div class='reponse'>où</div>"],
+     ["Je ne sais pas <div class='complement'>........</div> j'ai mis mes clés.", "<div class='reponse'>où</div>", "<div class='reponse'>ou</div>"],
+     ["Tu préfère aller à la piscine <div class='complement'>........</div> faire du vélo", "<div class='reponse'>ou</div>", "<div class='reponse'>où</div>"],
+     ["Cette année, nous irons à la mère <div class='complement'>........</div> à la campagne.", "<div class='reponse'>ou</div>", "<div class='reponse'>où</div>"]
    ];

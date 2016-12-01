@@ -179,7 +179,7 @@ h4 {
 }
 .body_accueil {
      background-image: url(../img/body.jpg);
-     height: 750px ;
+     height: 520px ;
 }
 
 
@@ -273,9 +273,31 @@ h4 {
        margin-top: 20px ; 
        border : 1px solid white ;
 }
-
-
-
+.bouton {
+     font-size: 1.3em ;
+     border : 2px dashed deeppink ;
+      color: white ;
+      font-weight: bold ;
+      background-color: black ;
+      text-align: center ;
+      border-radius: 2px ;
+}
+.reponse {
+    font-size: 1.3em ;
+    margin-top:  2px ;
+}
+.complement {
+    background-color: royalblue ;
+    display: inline ;
+}
+.autres_complement {
+    border-bottom: 5px solid royalblue ;
+    display: inline ;
+}
+.autres_complement2{
+    border-bottom: 5px solid #804000;
+    display: inline ;
+}
 
 
 

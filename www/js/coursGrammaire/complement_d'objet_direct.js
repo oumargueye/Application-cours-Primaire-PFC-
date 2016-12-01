@@ -52,6 +52,14 @@
                "  Les attributs du sujet sont introduits par des verbes d'états comme sembler,paraître,être... " +
  "</h4>" +
     " </p>" ;
+    
+    var quizCOD = [
+     ["<div class='autres_complement'>Malick et Khady</div> ont acheté <div class='autres_complement2'>une maison</div> <div class='autres_complement'>au bord de la mer</div>. ", "<div class='reponse'>une maison</div>", "<div class='reponse'>Malick et Khady</div>","<div class='reponse'>au bord de la mer </div>"],
+     ["<div class='autres_complement2'>Les enfants</div> se lavent <div class='autres_complement'>les mains</div> <div class='autres_complement2'>dans la salle de bains</div>.", "<div class='reponse'>les mains</div>", "<div class='reponse'>les enfants</div>","<div class='reponse'>dans la salle de bains</div>"],
+     ["<div class='autres_complement'>Monsieur Baldé</div> gare <div class='autres_complement2'>la voiture</div> <div class='autres_complement'>dans son garage</div>. ", "<div class='reponse'>la voiture</div>", "<div class='reponse'>dans son garage</div>","<div class='reponse'>monsieur Baldé</div>"],
+     ["<div class='autres_complement2'>Maman</div> <div class='autres_complement'>les</div> a punis car ils ont chahuté <div class='autres_complement2'>dans la chambre.</div>", "<div class='reponse'>les</div>", "<div class='reponse'>dans la chambre</div>","<div class='reponse'>maman</div>"],
+     ["Ce matin, <div class='autres_complement'>Coumba</div> a acheté <div class='autres_complement2'>des fraises</div> <div class='autres_complement'>au marché</div> ", "<div class='reponse'>des fraises</div>", "<div class='reponse'>au marché</div>","<div class='reponse'>Coumba</div>"]
+   ] ;
  
 
 

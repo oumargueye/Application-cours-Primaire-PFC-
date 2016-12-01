@@ -30,5 +30,12 @@
   "</h4>" +
    " </p> " ;
  
+ var quizNomPropreNomCommun = [
+     ["<div class='autres_complement2'>Capitale</div>", "<div class='reponse'>nom commun</div>", "<div class='reponse'>nom propre</div>"],
+     ["<div class='autres_complement'>Dakar</div>", "<div class='reponse'>nom propre</div>", "<div class='reponse'>nom commun</div>"],
+     ["<div class='autres_complement2'>Fromage</div>", "<div class='reponse'>nom commun</div>", "<div class='reponse'>nom propre</div>"],
+     ["<div class='autres_complement'>Monde</div>", "<div class='reponse'>nom commun </div>", "<div class='reponse'>nom propre</div>"],
+     ["<div class='autres_complement2'>Londres</div>", "<div class='reponse'>nom propre</div>", "<div class='reponse'>nom commun</div>"]
+   ] ;
 
 
