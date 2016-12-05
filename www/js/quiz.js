@@ -25,7 +25,27 @@ function questionSuivant() {
 
     quizPosition++;
     if (quizPosition === quizDernierPosition) {
-        alert("Résulat: " + points + "/" + quizDernierPosition);
+        
+        var note = points / quizDernierPosition * 100 ;
+        var texteMention ;
+        if(note === 100 )
+        {
+         texteMention = "Excéllent " ;    
+        }
+       else if (note >= 75){
+           texteMention = "Trés Bien " ;    
+       }
+       else if (note >= 50) {
+            texteMention = "Passable " ;    
+       }
+       else {
+            texteMention = "Insuffisant " ;    
+       }
+         $("#mention").html(texteMention);
+        $("#texteScore").html(note + "%");
+        ouvrirPageResultat();
+
+
     } else {
         chargerQuestion(quizPosition);
         $('input[type="radio"]').checkboxradio("refresh");
@@ -92,12 +112,12 @@ function comparerReponseEtAfficher(reponseChoisie, reponseCorrecte) {
 
 function hideAllRadio() {
     $('input[type="radio"]').prop('checked', false);
-    
+
 //    $('#r5').click();
 //    $('#r5').hide();
 //    $("#labelChoix5").click();
 //    $("#labelChoix5").hide();
-    
+
     $("#r1").hide();
     $("#labelChoix1").hide();
     $("#r2").hide();
@@ -106,11 +126,15 @@ function hideAllRadio() {
     $("#labelChoix3").hide();
     $("#r4").hide();
     $("#labelChoix4").hide();
-    
+
 }
 
 function ouvrirPageQuiz() {
     $.mobile.changePage('#pageQuiz');
+}
+
+function ouvrirPageResultat() {
+    $.mobile.changePage('#pageResultat');
 }
 
 function generateNumbers(maxValue) {
@@ -127,6 +151,12 @@ function generateNumbers(maxValue) {
 
     return numbers;
 }
+
+
+ $("#rejouer").click(demmarerQuiz);
+ $("#revoirCour").click(function(){
+     $.mobile.changePage("#pageCours");
+ });
 
 var r1 = document.getElementById("r1");
 var r2 = document.getElementById("r2");

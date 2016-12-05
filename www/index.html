@@ -136,8 +136,6 @@
                     </div>
                 </div>
 
-
-
             </div>
 
             <div data-role="header" class="fond_header"  data-position="fixed">
@@ -178,7 +176,7 @@
 
                 <div class="body_accueil">
                     <b> Complétez ces expressions </b>
-                    <p id="divQuiz" class="titre_cours" >Questions ...? </p>
+                    <p id="divQuiz" class="css_questions" >Questions ...? </p>
                     <form>
                         <fieldset data-role="controlgroup" data-iconpos="right">
                             <input type="radio" name="radio" id="r1" value="choix1">
@@ -213,6 +211,77 @@
             </div>
             <div data-role="footer" class="fond_footer" data-position="fixed">
 
+            </div>
+        </div>
+
+        <div data-role="page" id="pageResultat" data-theme="b">
+            <div data-role="panel" id="myPanel" data-theme="b">
+                <h1 class="matieres">Matiéres</h1>
+                <div data-role="collapsibleset">
+                    <div data-role="collapsible">
+                        <h1>Grammaire</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#" id="genreMasculinFemininDesNoms3">Genre masculin et feminin des noms</a></li>
+                            <li><a href="#" id="complementCirconstancielDeLieu3" >Complément Circonstanciel de Lieu</a></li>
+                            <li><a href="#" id="adjectifQualificatif3">Adjectif qualificatif</a></li>
+                            <li><a href="#" id="plurielDesNomsAilEtAl3">Pluriel des noms en ail et al</a></li>
+                            <li><a href="#" id="nomCommunNomPropre3">Nom commun, Nom propre</a></li>
+                            <li><a href="#" id="adjectifPossessif3">Adjectif possessif</a></li>
+                            <li><a href="#" id="complementDobjetDirect3">Complément d'objet direct</a></li>
+                            <li><a href="#" id="complementDobjetInDirect3">Complément d'objet indirect </a></li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Orthographe</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#" id="ouEtOu3">Ou et Où</a></li>
+                            <li><a href="#" id='accordAdjectif3'>Accord de l'adjectif qualificatif</a></li>
+                            <li><a href="#" id="leGdur3">Le G dur</a></li>
+                            <li><a href="#" id="motEnEuilleEtEnEuil3">Les mots en euille et euil</a></li>
+                            <li><a href="#" id="emploiDeleursEtleur3">Emploi de leurs et leur</a></li>
+                            <li><a href="#" id="nomsFemininEnEurEtOeur3">Les noms en EUR</a></li>
+                            <li><a href="#" id="homonymeMaisMetMes3">Les Homonymes mais, met et mes</a></li>
+                            <li><a href="#" id="EmploiDeCeSeCeux3">L'emploi de ce, se et ceux</a></li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Vocabulaire</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#" id="radicaux3">Radicaux</a></li>
+                            <li><a href="#" id="prefixe3">Préfixe</a></li>
+                            <li><a href="#" id="suffixe3">Suffixe</a></li>
+                            <li><a href="#" id="champLexical3">Le champ lexical</a></li>
+                            <li><a href="#" id="synonymie3">Synonymie</a></li>
+                            <li><a href="#" id="antonymie3">Antonymie</a></li>
+                            <li><a href="#" id="homonymie3">Homonymie</a></li>
+                            <li><a href="#" id="paronymie3">Paronymie</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div data-role="header" class="fond_header_acceuil" data-position="fixed">
+                <a href="#myPanel" class="ui-btn ui-btn-left ui-btn-icon-notext ui-icon-grid"></a>
+                <div class="area">
+                    gov edu
+                </div>
+                <b> Temple du Savoir </b>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <div class="body_accueil">
+                    <div>
+                        <p class="resultat">Résultat</p>
+                        <strong id="mention" class="mention"></strong>
+                        <p class="affichage"> Vous avez <span id="texteScore" class="note">5/5</span> de réussite !!! </p>
+                    </div>
+                    <button class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow" id="rejouer"><strong class="bouton_gauche">Rejouer</strong></button>
+                    <button class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow" id="revoirCour"><strong class="bouton_droite">Revoir Cour</strong></button>
+
+                </div>
+            </div>
+            <div data-role="footer" class="fond_footer" data-position="fixed">
             </div>
         </div>
 

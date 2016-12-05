@@ -12,11 +12,11 @@ var coursMotEnEuilleEtEuil =
 " </h4> " +
 " </p> " ;
            var quizMotEnEuil = [
-     ["En juin commence la <div class='complement'>........</div>  des cerises ?","cueillette" , "ceuillette ", " coeillette"],
-     [" Cultivé depuis le Moyen-âge, le <div class='complement'>........</div> ?", "cerfeuil", "cerfeuille"," cerfueil"],
-     ["C'est un individu extrêmement <div class='complement'>........</div> ", " orgueilleux", "orgeilleux","orgeuilleux"],
-     [" Les roches à fleur d'eau de l'île et de l'archipel de Bréhat forment des <div class='complement'>........</div> ", " écueils", "éceuils","écueilles"],
-     [" Le <div class='complement'>........</div> de l'hélicoptère permet de sauver des vies. ", "treuil", "trueil","treuille"]
+     ["En juin commence la <div class='complement'>........</div>  des cerises ?","<div class='reponse'>cueillette</div>" , "<div class='reponse'>ceuillette</div> ", "<div class='reponse'>coeillette</div>"],
+     [" Cultivé depuis le Moyen-âge, le <div class='complement'>........</div> ?", "<div class='reponse'>cerfeuil</div>", "<div class='reponse'>cerfeuille</div>","<div class='reponse'>cerfueil</div>"],
+     ["C'est un individu extrêmement <div class='complement'>........</div> ", " <div class='reponse'>orgueilleux</div>", "<div class='reponse'>orgeilleux</div>","<div class='reponse'>orgeuilleux</div>"],
+     [" Les roches à fleur d'eau de l'île et de l'archipel de Bréhat forment des <div class='complement'>........</div> ", "<div class='reponse'>écueils</div>", "<div class='reponse'>éceuils","<div class='reponse'>écueilles</div>"],
+     [" Le <div class='complement'>........</div> de l'hélicoptère permet de sauver des vies. ", "<div class='reponse'>treuil</div>", "<div class='reponse'>trueil</div>","<div class='reponse'>treuille</div>"]
    ] ;
 
 

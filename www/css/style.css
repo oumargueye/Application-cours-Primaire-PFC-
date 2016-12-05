@@ -274,16 +274,18 @@ h4 {
        border : 1px solid white ;
 }
 .bouton {
-     font-size: 1.3em ;
+     font-size: 1.5em ;
      border : 2px dashed deeppink ;
       color: white ;
       font-weight: bold ;
       background-color: black ;
       text-align: center ;
       border-radius: 2px ;
+      width: 100% ;
+      height: 100% ;
 }
 .reponse {
-    font-size: 1.3em ;
+    font-size: 1.5em ;
     margin-top:  2px ;
 }
 .complement {
@@ -298,8 +300,60 @@ h4 {
     border-bottom: 5px solid #804000;
     display: inline ;
 }
-
-
-
-
+.resultat {
+    text-align: center ;
+    font-size: 2.5em ;
+    border-bottom: 5px solid royalblue ;
+    border-left: 5px solid #804000;
+    border-top: 5px solid #804000; ;
+    border-right: 5px solid royalblue;
+    margin-top: 2px ;
+    color: wheat ;
+    text-decoration: underline ;
+}
+.affichage {
+    text-align: center ;
+    font-size: 1.5em ;
+}
+.note {
+    border-bottom: 5px solid #804000;
+    border-left: 5px solid #804000;
+    border-right: 5px solid royalblue ;
+    border-top :5px solid royalblue ;
+    border-radius: 50% ;
+   color: wheat ;
+}
+.mention {
+    border-bottom: 8px solid wheat;
+    font-size: 1.5em ;
+}
+.bouton_gauche {
+     font-size: 1.5em ;
+     border : 2px dashed deeppink ;
+      color: white ;
+      font-weight: bold ;
+      background-color: black ;
+      text-align: center ;
+      border-radius: 2px ;
+      width: 100% ;
+      height: 100% ;
+      float: left ;
+}
+.bouton_droite {
+     font-size: 1.5em ;
+     border : 2px dashed deeppink ;
+      color: white ;
+      font-weight: bold ;
+      background-color: black ;
+      text-align: center ;
+      border-radius: 2px ;
+      width: 100% ;
+      height: 100% ;
+      float: right ;
+}
+.css_questions {
+    text-align: center ;
+    font-size: 1.5em ;
+    margin-top:  2px ;
+}
 

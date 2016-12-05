@@ -51,7 +51,7 @@ var coursGrammaireAdjectifQualificatif =
 
 var quizAdjectifQualificatif = [
      ["Le <div class='complement'>petit</div> matelas fera largement l'affaire !", "<div class='reponse'>épithète</div>", "<div class='reponse'>attribut</div>","<div class='reponse'>mise en apposition</div>"],
-     ["Le vent, <div class='complement'>déchaîné</div> plus que jamais, frappa les maisons!", "<div class='reponse'>mise an apposition</div>", "<div class='reponse'>épithète</div>","<div class='reponse'>attribut</div>"],
+     ["Le vent, <div class='complement'>déchaîné</div> plus que jamais, frappa les maisons!", "<div class='reponse'>mise en apposition</div>", "<div class='reponse'>épithète</div>","<div class='reponse'>attribut</div>"],
      ["Avec ce chapeau, il a l'air <div class='complement'>fou</div> !", "<div class='reponse'>attribut</div>", "<div class='reponse'>mise en apposition</div>","<div class='reponse'>épithète</div>"],
      ["Je passe doucement mon doigt sur la <div class='complement'>fine</div> lame du couteau.", "<div class='reponse'>épithète</div>", "<div class='reponse'>attribut</div>","<div class='reponse'>mise en apposition</div>"],
      ["La pomme donnée à Abou était <div class='complement'>rouge</div>.", "<div class='reponse'>attribut</div>", "<div class='reponse'>mise en apposition</div>","<div class='reponse'>épithète</div>"]
